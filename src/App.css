@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.admin-title {
+  text-align: center;
+  font-size: 60px;
+  margin-block: 0.5em;
+}
+
+.search-bar {
+  margin-inline: auto;
+  display: block;
+  margin-block: 1em;
+  border-radius: 10px;
+  height: 2em;
+  width: 280px;
+  padding: 1em;
+  font-size: 22px;
+  border: none;
+  outline: 1px solid;
+}
+.list-container {
+  width: 70%;
+  margin-inline: auto;
+  outline: 1px solid;
+  border-radius: 5px;
+  padding: 2.5em;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.lists {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.form {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.score {
+  font-size: 25px;
+}
+
+.status {
+  font-size: 25px;
+}
+.listed-div {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  outline: 1px solid black;
+  border-radius: 10px;
+  margin-block: 1em;
+  width: 800px;
+  margin-inline: auto;
+  max-height: 80px;
+  background-color: #0077b6;
+  color: white;
+  transform: translateX(-200px);
+}
+
+.animate {
+  animation: animate cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms both;
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(200px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

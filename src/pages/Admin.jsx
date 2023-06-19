@@ -1,7 +1,76 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
 
-export const Admin = () => {
+function Admin() {
+  const [users, setUsers] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+
+  useEffect(() => {
+    fetchData();
+
+    const interval = setInterval(fetchData, 2000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    const results = users.filter((user) =>
+      user.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  }, [searchTerm, users]);
+
+  const fetchData = () => {
+    fetch("http://localhost:3000/users")
+      .then((res) => res.json())
+      .then((data) => {
+        setUsers(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  };
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
   return (
-    <div>admin</div>
-  )
+    <>
+      <h1 className="admin-title">Admin Page</h1>
+      <input
+        type="text"
+        className="search-bar"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={handleSearch}
+      />
+      <div className="list-container">
+        {searchResults.map((user) => (
+          <div className="listed-div animate" key={user.id}>
+            <label htmlFor="lists">
+              Name:
+              <li className="lists">{user.name}</li>
+            </label>
+            <label htmlFor="form">
+              Form:
+              <li className="form">1301</li>
+            </label>
+            <label htmlFor="status">
+              Status:
+              <li className="status">In-Progress</li>
+            </label>
+            <label htmlFor="score">
+              Score:
+              <li className="score">16/20</li>
+            </label>
+          </div>
+        ))}
+      </div>
+    </>
+  );
 }
+
+export default Admin;
