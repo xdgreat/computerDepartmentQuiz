@@ -3,6 +3,8 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
+  height: 500dvh;
+  position: relative;
 }
 .admin-title {
   text-align: center;
@@ -80,3 +82,6 @@ body {
     transform: translateY(0);
   }
 }
+
+
+.logo{}
