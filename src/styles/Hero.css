@@ -1,7 +1,6 @@
 .hero {
   height: 75dvh;
   outline: 1px solid;
-  position: relative;
   color: white;
 }
 
@@ -15,6 +14,7 @@
   background-size: cover;
   background-attachment: fixed;
   filter: brightness(50%);
+  height: 75dvh;
 }
 
 .hero-content {

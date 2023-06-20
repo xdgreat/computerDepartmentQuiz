@@ -24,4 +24,10 @@
 
 .colorChange {
   background-color: #1f1f1f;
+  color: #f3f3f3;
+}
+
+
+.NavSpace{
+  height: 15dvh;
 }

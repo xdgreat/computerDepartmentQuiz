@@ -7,7 +7,6 @@ export default function Hero() {
   return (
     <>
       <section className="hero">
-        <NavBar />
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">

@@ -12,22 +12,25 @@ export default function NavBar() {
       setColorchange(false);
     }
   };
-  window.addEventListener('scroll', changeNavbarColor)
+  window.addEventListener("scroll", changeNavbarColor);
   return (
-    <nav className={colorChange ? 'navigation colorChange' : 'navigation'}>
+    <nav className={colorChange ? "navigation colorChange" : "navigation"}>
       <div className="left-nav">
         <Link to={"/"}>
           <img src={logo} alt="" className="logo" />
         </Link>
       </div>
       <div className="right-nav">
+        {/* <Link to={"/"} className="links">
+          Home
+        </Link> */}
         <Link to={NavBar} className="links">
           History
         </Link>
         <Link to={NavBar} className="links">
           Projects
         </Link>
-        <Link to={NavBar} className="links">
+        <Link to={"/quiz"} className="links">
           Quiz
         </Link>
       </div>
