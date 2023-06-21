@@ -1,61 +1,103 @@
 import React, { useEffect, useState } from "react";
-import '../styles/Form.css'
+import "../styles/Form.css";
 
 function Form() {
-    const [data, setData] = useState([]);
-    const [newUser, setNewUser] = useState("");
-  
-    useEffect(() => {
-      fetchData();
-    }, []);
-  
-    const fetchData = () => {
-      fetch("http://localhost:3000/users")
+  const [data, setData] = useState([]);
+  const [newUser, setNewUser] = useState("");
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    fetch("http://localhost:3000/users")
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  };
+
+  const handleInputChange = (event) => {
+    setNewUser(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    if (newUser.trim() !== "") {
+      fetch("http://localhost:3000/users", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name: newUser }),
+      })
         .then((res) => res.json())
         .then((data) => {
-          setData(data);
+          setNewUser("");
+          fetchData();
         })
         .catch((error) => {
-          console.error("Error fetching data:", error);
+          console.error("Error submitting data:", error);
         });
-    };
-  
-    const handleInputChange = (event) => {
-      setNewUser(event.target.value);
-    };
-  
-    const handleSubmit = (event) => {
-      event.preventDefault();
-      if (newUser.trim() !== "") {
-        fetch("http://localhost:3000/users", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ name: newUser }),
-        })
-          .then((res) => res.json())
-          .then((data) => {
-            setNewUser("");
-            fetchData();
-          })
-          .catch((error) => {
-            console.error("Error submitting data:", error);
-          });
-      }
-    };
+    }
+  };
   return (
     <>
-    <form onSubmit={handleSubmit} className="quiz-form">
-        <input
-        className=""
-          type="text"
-          value={newUser}
-          onChange={handleInputChange}
-          placeholder="Enter name"
-        />
-        <button type="submit">Add User</button>
-      </form>
+      <div className="form-container">
+        <div className="form-content-left">
+          <h1 className="form-title">Quiz Registration</h1>
+          <p className="form-content">
+            Please fill out the form to register for the Computer
+            Department Quiz.
+          </p>
+          <p className="form-tos">
+            By participating in the quiz, you agree to abide by the rules and
+            regulations set forth by the Computer Department at MGMHS.
+          </p>
+        </div>
+        <form onSubmit={handleSubmit} className="quiz-form">
+          <label htmlFor="firstName">First Name</label>
+          <input
+            className="Name"
+            name="firstname"
+            type="text"
+            value={newUser}
+            onChange={handleInputChange}
+          />
+          <label htmlFor="lastName">Last Name</label>
+          <input
+            name="lastName"
+            className=""
+            type="text"
+            value={newUser}
+            onChange={handleInputChange}
+            placeholder="Enter name"
+          />
+          <select name="form" id="">
+            <option>1101</option>
+            <option>1102</option>
+            <option>1103</option>
+            <option>1104</option>
+            <option>1105</option>
+            <option>1106</option>
+            <option>1201</option>
+            <option>1202</option>
+            <option>1203</option>
+            <option>1204</option>
+            <option>1205</option>
+            <option>1206</option>
+            <option>1301</option>
+            <option>1302</option>
+            <option>1303</option>
+            <option>1304</option>
+            <option>1305</option>
+          </select>
+          <button type="submit">Let's Go</button>
+        </form>
+      </div>
     </>
   );
 }

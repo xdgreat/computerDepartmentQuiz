@@ -11,6 +11,7 @@
   border-radius: 20px;
   margin-top: 1em;
   transition: background-color 700ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  color: #f3f3f3;
 }
 
 .links {
@@ -23,8 +24,8 @@
 }
 
 .colorChange {
-  background-color: #1f1f1f;
-  color: #f3f3f3;
+  background-color: #f3f3f3;
+  color: #1f1f1f;
 }
 
 
