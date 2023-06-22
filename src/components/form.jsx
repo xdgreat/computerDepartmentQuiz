@@ -3,7 +3,8 @@ import "../styles/Form.css";
 
 function Form() {
   const [data, setData] = useState([]);
-  const [newUser, setNewUser] = useState("");
+  const [newFirstName, setNewFirstName] = useState("");
+  const [newLastName, setNewLastName] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -20,23 +21,35 @@ function Form() {
       });
   };
 
-  const handleInputChange = (event) => {
-    setNewUser(event.target.value);
+  const handleFirstNameChange = (event) => {
+    setNewFirstName(event.target.value);
+  };
+
+  const handleLastNameChange = (event) => {
+    setNewLastName(event.target.value);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (newUser.trim() !== "") {
+    if (newFirstName.trim() !== "" && newLastName.trim() !== "") {
+      const userData = {
+        firstName: newFirstName,
+        lastName: newLastName,
+        status: "in progress",
+        score: 0
+      };
+  
       fetch("http://localhost:3000/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ name: newUser }),
+        body: JSON.stringify(userData),
       })
         .then((res) => res.json())
         .then((data) => {
-          setNewUser("");
+          setNewFirstName("");
+          setNewLastName("");
           fetchData();
         })
         .catch((error) => {
@@ -44,18 +57,17 @@ function Form() {
         });
     }
   };
+
   return (
     <>
       <div className="form-container">
         <div className="form-content-left">
           <h1 className="form-title">Quiz Registration</h1>
           <p className="form-content">
-            Please fill out the form to register for the Computer
-            Department Quiz.
+            Please fill out the form to register for the Computer Department Quiz.
           </p>
           <p className="form-tos">
-            By participating in the quiz, you agree to abide by the rules and
-            regulations set forth by the Computer Department at MGMHS.
+            By participating in the quiz, you agree to abide by the rules and regulations set forth by the Computer Department at MGMHS.
           </p>
         </div>
         <form onSubmit={handleSubmit} className="quiz-form">
@@ -64,17 +76,17 @@ function Form() {
             className="Name"
             name="firstname"
             type="text"
-            value={newUser}
-            onChange={handleInputChange}
+            value={newFirstName}
+            onChange={handleFirstNameChange}
           />
           <label htmlFor="lastName">Last Name</label>
           <input
+            className="LastName"
             name="lastName"
-            className=""
             type="text"
-            value={newUser}
-            onChange={handleInputChange}
-            placeholder="Enter name"
+            value={newLastName}
+            onChange={handleLastNameChange}
+            placeholder="Enter last name"
           />
           <select name="form" id="">
             <option>1101</option>
@@ -101,4 +113,5 @@ function Form() {
     </>
   );
 }
+
 export default Form;

@@ -17,7 +17,7 @@ function Admin() {
 
   useEffect(() => {
     const results = users.filter((user) =>
-      user.name.toLowerCase().includes(searchTerm.toLowerCase())
+      user.firstName.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(results);
   }, [searchTerm, users]);
@@ -52,7 +52,7 @@ function Admin() {
           <div className="listed-div animate" key={user.id}>
             <label htmlFor="lists">
               Name:
-              <li className="lists">{user.name}</li>
+              <li className="lists">{user.firstName + " " + user.lastName}</li>
             </label>
             <label htmlFor="form">
               Form:
@@ -60,11 +60,11 @@ function Admin() {
             </label>
             <label htmlFor="status">
               Status:
-              <li className="status">In-Progress</li>
+              <li className="status">{user.status}</li>
             </label>
             <label htmlFor="score">
               Score:
-              <li className="score">16/20</li>
+              <li className="score">{user.score}/20</li>
             </label>
           </div>
         ))}
