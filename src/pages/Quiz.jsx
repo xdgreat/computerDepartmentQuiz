@@ -8,7 +8,7 @@ export const Quiz = () => {
     <>
       <NavSpace />
       <NavBar />
-      <Form />
+      
     </>
   );
 };

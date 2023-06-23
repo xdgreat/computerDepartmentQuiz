@@ -89,23 +89,9 @@ function Form() {
             placeholder="Enter last name"
           />
           <select name="form" id="">
-            <option>1101</option>
-            <option>1102</option>
-            <option>1103</option>
-            <option>1104</option>
-            <option>1105</option>
-            <option>1106</option>
-            <option>1201</option>
-            <option>1202</option>
-            <option>1203</option>
-            <option>1204</option>
-            <option>1205</option>
-            <option>1206</option>
-            <option>1301</option>
-            <option>1302</option>
-            <option>1303</option>
-            <option>1304</option>
-            <option>1305</option>
+            <option value="">Year 11</option>
+            <option value="">Year 12</option>
+            <option value="">Year 13</option>
           </select>
           <button type="submit">Let's Go</button>
         </form>

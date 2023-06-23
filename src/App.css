@@ -3,8 +3,8 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  position: relative;
-  height: 500dvh;
+  background-color: red;
+  /* height: 500dvh; */
 }
 .admin-title {
   text-align: center;

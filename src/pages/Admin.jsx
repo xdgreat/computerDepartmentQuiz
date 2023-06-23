@@ -52,7 +52,7 @@ function Admin() {
           <div className="listed-div animate" key={user.id}>
             <label htmlFor="lists">
               Name:
-              <li className="lists">{user.firstName + " " + user.lastName}</li>
+              <li className="lists">{user.firstName} {user.lastName}</li>
             </label>
             <label htmlFor="form">
               Form:

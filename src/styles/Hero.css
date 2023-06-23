@@ -1,7 +1,8 @@
 .hero {
-  height: 75dvh;
+  height: 75vh;
   outline: 1px solid;
-  color: white;
+  color: red;
+  background-color: orange;
 }
 
 .hero::before {
@@ -13,8 +14,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  filter: brightness(100%);
-  height: 75dvh;
+  filter: brightness(40%) blur(2px);
+  /* transform: scale(1.5); */
+  height: 100%;
 }
 
 .hero-content {
@@ -22,11 +24,13 @@
   margin-inline: auto;
   width: fit-content;
 }
+
 .hero-title {
   width: 50%;
   font-size: 35px;
   margin-inline: auto;
 }
+
 .hero-subcontent {
   font-size: 25px;
   line-height: 1.5;
@@ -34,6 +38,7 @@
   margin-inline: auto;
   margin-block: 1em;
 }
+
 .hero-container {
   display: flex;
   align-items: center;
@@ -52,6 +57,7 @@
   padding: 0.25em 0.8em;
   border-radius: 5px;
 }
+
 .learn {
   margin-inline: 0.5em;
   outline: 1px solid;
