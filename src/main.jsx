@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { Quiz } from "./pages/Quiz.jsx";
 import Admin from "./pages/Admin.jsx";
 import "./reset.css";
-import "./app.css";
+import "./App.css";
 import { NotFound } from "./NotFound.jsx";
 
 createRoot(document.getElementById("root")).render(
