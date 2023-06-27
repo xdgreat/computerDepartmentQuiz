@@ -1,9 +1,9 @@
 .form-container {
-  outline: 1px solid;
+  margin-block-start: 2em;
   display: flex;
   position: relative;
   isolation: isolate;
-  width: 1200px;
+  width: 100%px;
   border-radius: 20px;
   margin-inline: auto;
   color: #fefefe;
