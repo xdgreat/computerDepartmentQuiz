@@ -6,7 +6,7 @@ const app = express();
 const db = new sqlite3.Database(':memory:');
 
 db.serialize(() => {
-  db.run('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT, status TEXT, score INTEGER)');
+  db.run('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT, class TEXT, status TEXT, score INTEGER)');
 });
 
 app.use(cors());
@@ -29,15 +29,15 @@ app.get('/users', (req, res) => {
 });
 
 app.post('/users', (req, res) => {
-  const { firstName, lastName, status, score } = req.body;
+  const { firstName, lastName, class: userClass, status, score } = req.body;
 
-  db.run('INSERT INTO users (firstName, lastName, status, score) VALUES (?, ?, ?, ?)', [firstName, lastName, status, score], function (err) {
+  db.run('INSERT INTO users (firstName, lastName, class, status, score) VALUES (?, ?, ?, ?, ?)', [firstName, lastName, userClass, status, score], function (err) {
     if (err) {
       console.error(err);
       res.status(500).send('Internal server error');
     } else {
       const userId = this.lastID;
-      res.json({ id: userId, firstName, lastName, status, score });
+      res.json({ id: userId, firstName, lastName, class: userClass, status, score });
     }
   });
 });

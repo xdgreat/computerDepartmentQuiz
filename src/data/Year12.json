@@ -1,0 +1,249 @@
+{
+  "questions": [
+    {
+      "question": "Who is considered the father of computer science?",
+      "options": [
+        { "answer": "Alan Turing", "isCorrect": true },
+        { "answer": "Bill Gates", "isCorrect": false },
+        { "answer": "Steve Jobs", "isCorrect": false },
+        { "answer": "Mark Zuckerberg", "isCorrect": false },
+        { "answer": "Tim Berners-Lee", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does CPU stand for in computing?",
+      "options": [
+        { "answer": "Central Processing Unit", "isCorrect": true },
+        { "answer": "Computer Personal Unit", "isCorrect": false },
+        { "answer": "Controlled Processing Unit", "isCorrect": false },
+        { "answer": "Central Personal Unit", "isCorrect": false },
+        { "answer": "Computer Processing Unit", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an operating system?",
+      "options": [
+        {
+          "answer": "Manage hardware resources and provide common services",
+          "isCorrect": true
+        },
+        { "answer": "Protect against viruses and malware", "isCorrect": false },
+        { "answer": "Create and edit documents and files", "isCorrect": false },
+        { "answer": "Connect to the internet", "isCorrect": false },
+        { "answer": "Process and store data", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the main function of an optical drive in a computer?",
+      "options": [
+        {
+          "answer": "Read and write data from optical discs",
+          "isCorrect": true
+        },
+        { "answer": "Store temporary data in cache", "isCorrect": false },
+        { "answer": "Perform complex calculations", "isCorrect": false },
+        { "answer": "Connect to external devices", "isCorrect": false },
+        { "answer": "Manage network connections", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does HTML stand for in web development?",
+      "options": [
+        { "answer": "Hypertext Markup Language", "isCorrect": true },
+        { "answer": "High-level Modeling Language", "isCorrect": false },
+        { "answer": "Hyperlink Management Language", "isCorrect": false },
+        { "answer": "Home Tool Markup Language", "isCorrect": false },
+        { "answer": "Hyper Transfer Markup Language", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which company developed the Java programming language?",
+      "options": [
+        { "answer": "Microsoft", "isCorrect": false },
+        { "answer": "Apple", "isCorrect": false },
+        { "answer": "IBM", "isCorrect": false },
+        { "answer": "Oracle", "isCorrect": true },
+        { "answer": "Google", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of a firewall in computer security?",
+      "options": [
+        { "answer": "Monitor network traffic", "isCorrect": false },
+        { "answer": "Block unauthorized access", "isCorrect": true },
+        { "answer": "Encrypt data", "isCorrect": false },
+        { "answer": "Increase computer speed", "isCorrect": false },
+        { "answer": "Scan for viruses", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a programming language used for creating web pages?",
+      "options": [
+        { "answer": "JavaScript", "isCorrect": true },
+        { "answer": "Python", "isCorrect": false },
+        { "answer": "C++", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false },
+        { "answer": "Swift", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of a router in a computer network?",
+      "options": [
+        {
+          "answer": "Connect multiple networks and forward data packets",
+          "isCorrect": true
+        },
+        { "answer": "Store and manage databases", "isCorrect": false },
+        { "answer": "Provide power supply to devices", "isCorrect": false },
+        { "answer": "Perform mathematical calculations", "isCorrect": false },
+        { "answer": "Display visual output on a screen", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a cloud storage service?",
+      "options": [
+        { "answer": "Google Drive", "isCorrect": true },
+        { "answer": "Microsoft Excel", "isCorrect": false },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Dropbox", "isCorrect": true },
+        { "answer": "Windows Media Player", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does SSD stand for in computer hardware?",
+      "options": [
+        { "answer": "Solid State Drive", "isCorrect": true },
+        { "answer": "Super Speed Data", "isCorrect": false },
+        { "answer": "Secondary Storage Device", "isCorrect": false },
+        { "answer": "System Security Device", "isCorrect": false },
+        { "answer": "Synchronized Storage Disk", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming language is often used for game development?",
+      "options": [
+        { "answer": "C++", "isCorrect": true },
+        { "answer": "Java", "isCorrect": false },
+        { "answer": "Python", "isCorrect": false },
+        { "answer": "Swift", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the primary function of a database management system?",
+      "options": [
+        { "answer": "Store, manage, and retrieve data", "isCorrect": true },
+        { "answer": "Perform complex calculations", "isCorrect": false },
+        { "answer": "Create graphical user interfaces", "isCorrect": false },
+        { "answer": "Connect to the internet", "isCorrect": false },
+        { "answer": "Block unauthorized access", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a markup language used for structuring content on the web?",
+      "options": [
+        { "answer": "XML", "isCorrect": true },
+        { "answer": "JSON", "isCorrect": false },
+        { "answer": "YAML", "isCorrect": false },
+        { "answer": "HTML", "isCorrect": false },
+        { "answer": "CSS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a version control system in software development?",
+      "options": [
+        {
+          "answer": "Track and manage changes to source code",
+          "isCorrect": true
+        },
+        { "answer": "Execute automated tests", "isCorrect": false },
+        { "answer": "Optimize database performance", "isCorrect": false },
+        { "answer": "Generate documentation", "isCorrect": false },
+        { "answer": "Debug software errors", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the difference between HTTP and HTTPS?",
+      "options": [
+        {
+          "answer": "HTTP stands for Hypertext Transfer Protocol, while HTTPS stands for Hypertext Transfer Protocol Secure.",
+          "isCorrect": true
+        },
+        {
+          "answer": "HTTP is used for secure communication, while HTTPS is used for regular communication.",
+          "isCorrect": false
+        },
+        {
+          "answer": "HTTP uses port 80, while HTTPS uses port 443.",
+          "isCorrect": false
+        },
+        {
+          "answer": "HTTP encrypts data, while HTTPS does not encrypt data.",
+          "isCorrect": false
+        },
+        {
+          "answer": "HTTP is used for local networks, while HTTPS is used for the internet.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of a cache in computer systems?",
+      "options": [
+        {
+          "answer": "To temporarily store frequently accessed data for faster retrieval.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To encrypt sensitive data for secure transmission.",
+          "isCorrect": false
+        },
+        { "answer": "To perform complex calculations.", "isCorrect": false },
+        { "answer": "To connect to external devices.", "isCorrect": false },
+        { "answer": "To manage network connections.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a popular relational database management system?",
+      "options": [
+        { "answer": "MySQL", "isCorrect": true },
+        { "answer": "MongoDB", "isCorrect": false },
+        { "answer": "Redis", "isCorrect": false },
+        { "answer": "SQLite", "isCorrect": false },
+        { "answer": "PostgreSQL", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an API (Application Programming Interface)?",
+      "options": [
+        {
+          "answer": "To define how software components should interact with each other.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        { "answer": "To execute automated tests.", "isCorrect": false },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To protect against viruses and malware.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which programming language is often used for data analysis and scientific computing?",
+      "options": [
+        { "answer": "Python", "isCorrect": true },
+        { "answer": "Java", "isCorrect": false },
+        { "answer": "C#", "isCorrect": false },
+        { "answer": "R", "isCorrect": false },
+        { "answer": "JavaScript", "isCorrect": false }
+      ]
+    }
+  ]
+}

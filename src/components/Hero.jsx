@@ -1,16 +1,16 @@
 import React from "react";
-import NavBar from "./NavBar";
 import "../styles/Hero.css";
 import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="hero">
         <div className="hero-container">
           <div className="hero-content">
             <h1 className="hero-title">
-            Welcome to MGMHS Computer <br /> Department: Empowering Digital Skills.
+              Welcome to MGMHS Computer <br /> Department: Empowering Digital
+              Skills.
             </h1>
             <p className="hero-subcontent">
               Explore the world of computer studies at MGMHS, where we offer a
@@ -18,8 +18,12 @@ export default function Hero() {
               web development, and more.
             </p>
             <div className="btns">
-                <Link to={"/"} className="cta-btn explore">Explore</Link>
-                <Link to={"/"} className="cta-btn learn">Learn More</Link>
+              <Link to={"/"} className="cta-btn explore">
+                Explore
+              </Link>
+              <Link to={"/"} className="cta-btn learn">
+                Learn More
+              </Link>
             </div>
           </div>
         </div>

@@ -1,28 +1,27 @@
 .hero {
-  height: 75vh;
-  outline: 1px solid;
-  color: red;
-  background-color: orange;
+  height: 80vh;
+  color: white;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("../assets//hero2.jpg");
-  z-index: -1;
+  background-image: url("../assets//hero3.jpg");
+  z-index: -2;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: bottom;
+  background-size: 150%;
   background-attachment: fixed;
-  filter: brightness(40%) blur(2px);
-  /* transform: scale(1.5); */
-  height: 100%;
+  filter: brightness(40%);
+  height: 80vh;
 }
 
 .hero-content {
   text-align: center;
   margin-inline: auto;
   width: fit-content;
+  margin-block-start: 5em;
 }
 
 .hero-title {
@@ -62,7 +61,7 @@
   margin-inline: 0.5em;
   outline: 1px solid;
   padding: 0.25em 0.8em;
-  color: #184391;
+  /* color: #184391; */
   border-radius: 5px;
 }
 
@@ -70,3 +69,4 @@
   color: white;
   transition: color 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+

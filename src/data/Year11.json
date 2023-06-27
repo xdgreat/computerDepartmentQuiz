@@ -1,0 +1,210 @@
+{
+  "questions": [
+    {
+      "question": "What is the basic unit of digital information storage in a computer?",
+      "options": [
+        { "answer": "Bit", "isCorrect": true },
+        { "answer": "Byte", "isCorrect": false },
+        { "answer": "Megabyte", "isCorrect": false },
+        { "answer": "Gigabyte", "isCorrect": false },
+        { "answer": "Kilobyte", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does CPU stand for?",
+      "options": [
+        { "answer": "Central Processing Unit", "isCorrect": true },
+        { "answer": "Computer Processing Unit", "isCorrect": false },
+        { "answer": "Core Processing Unit", "isCorrect": false },
+        { "answer": "Control Processing Unit", "isCorrect": false },
+        { "answer": "Central Power Unit", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming language is often used for web development?",
+      "options": [
+        { "answer": "Python", "isCorrect": false },
+        { "answer": "C++", "isCorrect": false },
+        { "answer": "JavaScript", "isCorrect": true },
+        { "answer": "Java", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of an operating system?",
+      "options": [
+        { "answer": "Run software applications", "isCorrect": false },
+        {
+          "answer": "Manage computer hardware and software resources",
+          "isCorrect": true
+        },
+        { "answer": "Connect to the internet", "isCorrect": false },
+        { "answer": "Create websites", "isCorrect": false },
+        { "answer": "Design graphics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the acronym 'URL' stand for?",
+      "options": [
+        { "answer": "Uniform Resource Locator", "isCorrect": true },
+        { "answer": "Universal Reference Link", "isCorrect": false },
+        { "answer": "United Resource Language", "isCorrect": false },
+        { "answer": "User Registration List", "isCorrect": false },
+        { "answer": "User Requested Link", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of an input device?",
+      "options": [
+        { "answer": "Printer", "isCorrect": false },
+        { "answer": "Monitor", "isCorrect": false },
+        { "answer": "Keyboard", "isCorrect": true },
+        { "answer": "Speakers", "isCorrect": false },
+        { "answer": "USB drive", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a popular cloud storage service?",
+      "options": [
+        { "answer": "Google Drive", "isCorrect": true },
+        { "answer": "Photoshop", "isCorrect": false },
+        { "answer": "Microsoft Excel", "isCorrect": false },
+        { "answer": "Adobe Acrobat", "isCorrect": false },
+        { "answer": "Spotify", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        { "answer": "Hyper Text Markup Language", "isCorrect": true },
+        { "answer": "High Traffic Markup Language", "isCorrect": false },
+        { "answer": "Hyperlink and Text Markup Language", "isCorrect": false },
+        { "answer": "Home Tool Markup Language", "isCorrect": false },
+        { "answer": "Hyper Transfer Markup Language", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which company developed the Java programming language?",
+      "options": [
+        { "answer": "Microsoft", "isCorrect": false },
+        { "answer": "Apple", "isCorrect": false },
+        { "answer": "IBM", "isCorrect": false },
+        { "answer": "Oracle", "isCorrect": true },
+        { "answer": "Google", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of a firewall in computer security?",
+      "options": [
+        { "answer": "Monitor network traffic", "isCorrect": false },
+        { "answer": "Block unauthorized access", "isCorrect": true },
+        { "answer": "Encrypt data", "isCorrect": false },
+        { "answer": "Increase computer speed", "isCorrect": false },
+        { "answer": "Scan for viruses", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a type of computer memory that retains data even when the power is turned off?",
+      "options": [
+        { "answer": "RAM", "isCorrect": false },
+        { "answer": "Cache", "isCorrect": false },
+        { "answer": "ROM", "isCorrect": true },
+        { "answer": "CPU", "isCorrect": false },
+        { "answer": "SSD", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the term 'URL' refer to in web browsing?",
+      "options": [
+        { "answer": "The address of a website", "isCorrect": true },
+        { "answer": "The size of a web page", "isCorrect": false },
+        { "answer": "The file format of a web page", "isCorrect": false },
+        {
+          "answer": "The programming language of a web page",
+          "isCorrect": false
+        },
+        { "answer": "The color scheme of a web page", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which protocol is commonly used for sending emails over the internet?",
+      "options": [
+        { "answer": "FTP", "isCorrect": false },
+        { "answer": "HTTP", "isCorrect": false },
+        { "answer": "SMTP", "isCorrect": true },
+        { "answer": "POP", "isCorrect": false },
+        { "answer": "DNS", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the acronym 'LAN' stand for in computer networking?",
+      "options": [
+        { "answer": "Local Area Network", "isCorrect": true },
+        { "answer": "Large Area Network", "isCorrect": false },
+        { "answer": "Local Access Network", "isCorrect": false },
+        { "answer": "Longitudinal Area Network", "isCorrect": false },
+        { "answer": "Low-latency Area Network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a widely used relational database management system?",
+      "options": [
+        { "answer": "MySQL", "isCorrect": true },
+        { "answer": "Photoshop", "isCorrect": false },
+        { "answer": "Salesforce", "isCorrect": false },
+        { "answer": "WordPress", "isCorrect": false },
+        { "answer": "GitHub", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the acronym 'VPN' stand for?",
+      "options": [
+        { "answer": "Virtual Personal Network", "isCorrect": false },
+        { "answer": "Virtual Private Network", "isCorrect": true },
+        { "answer": "Visible Public Network", "isCorrect": false },
+        { "answer": "Verified Private Network", "isCorrect": false },
+        { "answer": "Viral Personal Network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of an output device?",
+      "options": [
+        { "answer": "Printer", "isCorrect": true },
+        { "answer": "Keyboard", "isCorrect": false },
+        { "answer": "Mouse", "isCorrect": false },
+        { "answer": "USB drive", "isCorrect": false },
+        { "answer": "Microphone", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a browser cache?",
+      "options": [
+        { "answer": "To store passwords securely", "isCorrect": false },
+        { "answer": "To improve website loading speed", "isCorrect": true },
+        { "answer": "To block pop-up ads", "isCorrect": false },
+        { "answer": "To encrypt online communications", "isCorrect": false },
+        { "answer": "To scan for malware", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following file formats is commonly used for images?",
+      "options": [
+        { "answer": "MP3", "isCorrect": false },
+        { "answer": "TXT", "isCorrect": false },
+        { "answer": "PDF", "isCorrect": false },
+        { "answer": "JPEG", "isCorrect": true },
+        { "answer": "DOCX", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the acronym 'RAM' stand for?",
+      "options": [
+        { "answer": "Random Access Memory", "isCorrect": true },
+        { "answer": "Read-Only Memory", "isCorrect": false },
+        { "answer": "Remote Access Modem", "isCorrect": false },
+        { "answer": "Rapid Application Management", "isCorrect": false },
+        { "answer": "Resource Allocation Module", "isCorrect": false }
+      ]
+    }
+  ]
+}

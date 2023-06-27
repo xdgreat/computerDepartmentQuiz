@@ -1,0 +1,393 @@
+{
+  "questions": [
+    {
+      "question": "What is the purpose of a DNS (Domain Name System) in computer networks?",
+      "options": [
+        {
+          "answer": "To translate domain names into IP addresses.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To protect against viruses and malware.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To connect multiple networks and forward data packets.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between RAM (Random Access Memory) and storage devices like hard drives?",
+      "options": [
+        {
+          "answer": "RAM provides temporary storage for data that is actively being used, while storage devices hold data even when the power is off.",
+          "isCorrect": true
+        },
+        {
+          "answer": "RAM is faster than storage devices in terms of data access speed.",
+          "isCorrect": false
+        },
+        {
+          "answer": "RAM has a smaller storage capacity compared to storage devices.",
+          "isCorrect": false
+        },
+        {
+          "answer": "RAM uses magnetic storage technology, while storage devices use semiconductor technology.",
+          "isCorrect": false
+        },
+        {
+          "answer": "RAM is used for long-term data storage, while storage devices are used for short-term data storage.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of a compiler in programming?",
+      "options": [
+        {
+          "answer": "To translate source code into machine code.",
+          "isCorrect": true
+        },
+        { "answer": "To test software and detect errors.", "isCorrect": false },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To protect against unauthorized access.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the difference between a local area network (LAN) and a wide area network (WAN)?",
+      "options": [
+        {
+          "answer": "LAN covers a small geographical area, such as a home or office, while WAN covers a larger geographical area, such as multiple cities or countries.",
+          "isCorrect": true
+        },
+        {
+          "answer": "LAN provides wireless connectivity, while WAN provides wired connectivity.",
+          "isCorrect": false
+        },
+        {
+          "answer": "LAN is slower than WAN in terms of data transmission speed.",
+          "isCorrect": false
+        },
+        {
+          "answer": "LAN is used for internet access, while WAN is used for local file sharing.",
+          "isCorrect": false
+        },
+        {
+          "answer": "LAN is a physical network, while WAN is a virtual network.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of a firewall in computer security?",
+      "options": [
+        {
+          "answer": "To monitor and block unauthorized access to a computer network.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To encrypt data transmitted over a network.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        { "answer": "To scan for viruses and malware.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which programming language is often used for building mobile applications?",
+      "options": [
+        { "answer": "Java", "isCorrect": false },
+        { "answer": "Swift", "isCorrect": true },
+        { "answer": "C#", "isCorrect": false },
+        { "answer": "Python", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a GPU (Graphics Processing Unit) in a computer?",
+      "options": [
+        {
+          "answer": "To render and display graphics on a computer screen.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To perform mathematical calculations.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To connect multiple computers in a network.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a popular programming language for web development?",
+      "options": [
+        { "answer": "HTML", "isCorrect": false },
+        { "answer": "CSS", "isCorrect": false },
+        { "answer": "JavaScript", "isCorrect": true },
+        { "answer": "SQL", "isCorrect": false },
+        { "answer": "PHP", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an IP address in computer networks?",
+      "options": [
+        {
+          "answer": "To uniquely identify devices on a network.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To encrypt data transmitted over a network.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        { "answer": "To monitor network traffic.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of an input device?",
+      "options": [
+        { "answer": "Keyboard", "isCorrect": true },
+        { "answer": "Monitor", "isCorrect": false },
+        { "answer": "Printer", "isCorrect": false },
+        { "answer": "Speakers", "isCorrect": false },
+        { "answer": "USB flash drive", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an SSL (Secure Sockets Layer) certificate on a website?",
+      "options": [
+        {
+          "answer": "To secure and encrypt data transmitted between a web browser and a web server.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To monitor and block unauthorized access to a website.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To perform mathematical calculations.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a popular web browser?",
+      "options": [
+        { "answer": "Google Chrome", "isCorrect": true },
+        { "answer": "Microsoft Word", "isCorrect": false },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Dropbox", "isCorrect": false },
+        { "answer": "Windows Media Player", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of an operating system?",
+      "options": [
+        {
+          "answer": "To manage hardware resources and provide common services.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To protect against viruses and malware.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create and edit documents and files.",
+          "isCorrect": false
+        },
+        { "answer": "To connect to the internet.", "isCorrect": false },
+        { "answer": "To process and store data.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a router in a computer network?",
+      "options": [
+        {
+          "answer": "To connect multiple networks and forward data packets.",
+          "isCorrect": true
+        },
+        { "answer": "To store and manage databases.", "isCorrect": false },
+        { "answer": "To provide power supply to devices.", "isCorrect": false },
+        {
+          "answer": "To perform mathematical calculations.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To display visual output on a screen.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of an antivirus software?",
+      "options": [
+        {
+          "answer": "To detect, prevent, and remove viruses and malware from a computer.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To encrypt data transmitted over a network.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        { "answer": "To monitor network traffic.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is a popular programming language for data analysis and machine learning?",
+      "options": [
+        { "answer": "Python", "isCorrect": true },
+        { "answer": "Java", "isCorrect": false },
+        { "answer": "C++", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false },
+        { "answer": "Swift", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a virtual machine?",
+      "options": [
+        {
+          "answer": "To run multiple operating systems on a single physical computer.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To connect multiple computers in a network.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To perform mathematical calculations.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of a cache in a computer system?",
+      "options": [
+        {
+          "answer": "To store frequently accessed data for faster retrieval.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To protect against viruses and malware.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create and edit documents and files.",
+          "isCorrect": false
+        },
+        { "answer": "To connect to the internet.", "isCorrect": false },
+        { "answer": "To process and store data.", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a search engine?",
+      "options": [
+        {
+          "answer": "To retrieve and display relevant information from the World Wide Web.",
+          "isCorrect": true
+        },
+        {
+          "answer": "To store and manage data in a database.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To create graphical user interfaces.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To monitor and block unauthorized access to a website.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To perform mathematical calculations.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of an SSD (Solid State Drive) in a computer?",
+      "options": [
+        {
+          "answer": "To provide high-speed storage and faster data access compared to traditional hard drives.",
+          "isCorrect": true
+        },
+        { "answer": "To store and manage databases.", "isCorrect": false },
+        { "answer": "To provide power supply to devices.", "isCorrect": false },
+        {
+          "answer": "To render and display graphics on a computer screen.",
+          "isCorrect": false
+        },
+        {
+          "answer": "To connect multiple computers in a network.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

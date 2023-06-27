@@ -5,6 +5,7 @@ function Form() {
   const [data, setData] = useState([]);
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
+  const [newClass, setNewClass] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -29,12 +30,17 @@ function Form() {
     setNewLastName(event.target.value);
   };
 
+  const handleClassChange = (event) => {
+    setNewClass(event.target.value);
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (newFirstName.trim() !== "" && newLastName.trim() !== "") {
+    if (newFirstName.trim() !== "" && newLastName.trim() !== "" && newClass.trim() !== "") {
       const userData = {
         firstName: newFirstName,
         lastName: newLastName,
+        class: newClass,
         status: "in progress",
         score: 0
       };
@@ -50,6 +56,7 @@ function Form() {
         .then((data) => {
           setNewFirstName("");
           setNewLastName("");
+          setNewClass("");
           fetchData();
         })
         .catch((error) => {
@@ -88,10 +95,12 @@ function Form() {
             onChange={handleLastNameChange}
             placeholder="Enter last name"
           />
-          <select name="form" id="">
-            <option value="">Year 11</option>
-            <option value="">Year 12</option>
-            <option value="">Year 13</option>
+          <label htmlFor="class">Class</label>
+          <select name="class" value={newClass} onChange={handleClassChange}>
+            <option value="">Select a class</option>
+            <option value="Year 11">Year 11</option>
+            <option value="Year 12">Year 12</option>
+            <option value="Year 13">Year 13</option>
           </select>
           <button type="submit">Let's Go</button>
         </form>

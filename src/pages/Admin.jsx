@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import NavBar from "../components/NavBar";
+import NavSpace from "../components/NavSpace";
+import BackToTop from "../components/BackToTop";
 
 function Admin() {
   const [users, setUsers] = useState([]);
@@ -39,6 +42,8 @@ function Admin() {
 
   return (
     <>
+    <NavBar />
+    <NavSpace/>
       <h1 className="admin-title">Admin Page</h1>
       <input
         type="text"
@@ -56,7 +61,7 @@ function Admin() {
             </label>
             <label htmlFor="form">
               Form:
-              <li className="form">1301</li>
+              <li className="form">{user.class}</li>
             </label>
             <label htmlFor="status">
               Status:
@@ -69,6 +74,7 @@ function Admin() {
           </div>
         ))}
       </div>
+      <BackToTop/>
     </>
   );
 }
