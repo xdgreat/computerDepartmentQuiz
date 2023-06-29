@@ -42,8 +42,8 @@ function Admin() {
 
   return (
     <>
-    <NavBar />
-    <NavSpace/>
+      <NavBar />
+      <NavSpace />
       <h1 className="admin-title">Admin Page</h1>
       <input
         type="text"
@@ -57,7 +57,9 @@ function Admin() {
           <div className="listed-div animate" key={user.id}>
             <label htmlFor="lists">
               Name:
-              <li className="lists">{user.firstName} {user.lastName}</li>
+              <li className="lists">
+                {user.firstName} {user.lastName}
+              </li>
             </label>
             <label htmlFor="form">
               Form:
@@ -74,7 +76,7 @@ function Admin() {
           </div>
         ))}
       </div>
-      <BackToTop/>
+      <BackToTop />
     </>
   );
 }

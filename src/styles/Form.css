@@ -22,28 +22,27 @@
 }
 
 .form-content-left {
-    flex-basis: 50%;
-    padding: 2em;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column wrap;
-    height: 100%;
+  flex-basis: 50%;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  height: 100%;
 }
 
-.form-title{
-    font-size: 50px;
+.form-title {
+  font-size: 50px;
 }
 
-.form-content{
-    font-size: 30px;
+.form-content {
+  font-size: 30px;
 }
 
-
-.quiz-form{
-    background-color: #1f1f1f;
-    border-radius: 20px;
-    opacity: .9;
-    height: 50%;
-    margin-inline: 2em;
+.quiz-form {
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  opacity: 0.9;
+  height: 50%;
+  margin-inline: 2em;
 }

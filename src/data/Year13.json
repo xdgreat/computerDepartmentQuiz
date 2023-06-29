@@ -57,7 +57,10 @@
           "answer": "To translate source code into machine code.",
           "isCorrect": true
         },
-        { "answer": "To test software and detect errors.", "isCorrect": false },
+        {
+          "answer": "To test software and detect errors.",
+          "isCorrect": false
+        },
         {
           "answer": "To store and manage data in a database.",
           "isCorrect": false
@@ -258,7 +261,10 @@
           "isCorrect": true
         },
         { "answer": "To store and manage databases.", "isCorrect": false },
-        { "answer": "To provide power supply to devices.", "isCorrect": false },
+        {
+          "answer": "To provide power supply to devices.",
+          "isCorrect": false
+        },
         {
           "answer": "To perform mathematical calculations.",
           "isCorrect": false
@@ -378,7 +384,10 @@
           "isCorrect": true
         },
         { "answer": "To store and manage databases.", "isCorrect": false },
-        { "answer": "To provide power supply to devices.", "isCorrect": false },
+        {
+          "answer": "To provide power supply to devices.",
+          "isCorrect": false
+        },
         {
           "answer": "To render and display graphics on a computer screen.",
           "isCorrect": false

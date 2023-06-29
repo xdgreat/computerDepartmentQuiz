@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Form.css";
 
-function Form() {
+function Form({ submit, formName, userDbId }) {
   const [data, setData] = useState([]);
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
   const [newClass, setNewClass] = useState("");
+  const [newId, setNewId] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -36,15 +37,19 @@ function Form() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (newFirstName.trim() !== "" && newLastName.trim() !== "" && newClass.trim() !== "") {
+    if (
+      newFirstName.trim() !== "" &&
+      newLastName.trim() !== "" &&
+      newClass.trim() !== ""
+    ) {
       const userData = {
         firstName: newFirstName,
         lastName: newLastName,
         class: newClass,
         status: "in progress",
-        score: 0
+        score: 0,
       };
-  
+
       fetch("http://localhost:3000/users", {
         method: "POST",
         headers: {
@@ -58,6 +63,9 @@ function Form() {
           setNewLastName("");
           setNewClass("");
           fetchData();
+          submit();
+          userDbId(data.id);
+          formName(newClass);
         })
         .catch((error) => {
           console.error("Error submitting data:", error);
@@ -71,13 +79,15 @@ function Form() {
         <div className="form-content-left">
           <h1 className="form-title">Quiz Registration</h1>
           <p className="form-content">
-            Please fill out the form to register for the Computer Department Quiz.
+            Please fill out the form to register for the Computer Department
+            Quiz.
           </p>
           <p className="form-tos">
-            By participating in the quiz, you agree to abide by the rules and regulations set forth by the Computer Department at MGMHS.
+            By participating in the quiz, you agree to abide by the rules and
+            regulations set forth by the Computer Department at MGMHS.
           </p>
         </div>
-        <form onSubmit={handleSubmit} className="quiz-form">
+        <form onSubmit={handleSubmit} className="quiz-form" id="quiz-form">
           <label htmlFor="firstName">First Name</label>
           <input
             className="Name"

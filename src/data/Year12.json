@@ -27,8 +27,14 @@
           "answer": "Manage hardware resources and provide common services",
           "isCorrect": true
         },
-        { "answer": "Protect against viruses and malware", "isCorrect": false },
-        { "answer": "Create and edit documents and files", "isCorrect": false },
+        {
+          "answer": "Protect against viruses and malware",
+          "isCorrect": false
+        },
+        {
+          "answer": "Create and edit documents and files",
+          "isCorrect": false
+        },
         { "answer": "Connect to the internet", "isCorrect": false },
         { "answer": "Process and store data", "isCorrect": false }
       ]

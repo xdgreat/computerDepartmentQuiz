@@ -78,7 +78,10 @@
       "options": [
         { "answer": "Hyper Text Markup Language", "isCorrect": true },
         { "answer": "High Traffic Markup Language", "isCorrect": false },
-        { "answer": "Hyperlink and Text Markup Language", "isCorrect": false },
+        {
+          "answer": "Hyperlink and Text Markup Language",
+          "isCorrect": false
+        },
         { "answer": "Home Tool Markup Language", "isCorrect": false },
         { "answer": "Hyper Transfer Markup Language", "isCorrect": false }
       ]
