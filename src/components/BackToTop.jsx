@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function BackToTop({ location }) {
+function BackToTop() {
   const [changeVisibility, setChangeVisibility] = useState(false);
 
   const visibility = () => {
@@ -12,14 +12,14 @@ function BackToTop({ location }) {
   };
 
   window.addEventListener("scroll", visibility);
-  const goUp = ()=>{
-    document.body.scrollTop = 0; 
-    document.documentElement.scrollTop = 0; 
-  }
+  const goUp = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
   return (
     <>
       <div
-      onClick={goUp}
+        onClick={goUp}
         className={
           changeVisibility
             ? "back-to-top-container visible"
