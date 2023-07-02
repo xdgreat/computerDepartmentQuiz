@@ -63,7 +63,7 @@ function Admin() {
             </label>
             <label htmlFor="form">
               Form:
-              <li className="form">{user.class}</li>
+              <li className="form">{user.userClass}</li>
             </label>
             <label htmlFor="status">
               Status:

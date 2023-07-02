@@ -9,6 +9,7 @@ export const Quiz = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formName, getFormName] = useState("");
   const [userId, getUserId] = useState("");
+  const [name, getName] = useState("");
 
   const handleIsSubmitted = () => {
     setIsSubmitted(true);
@@ -19,8 +20,11 @@ export const Quiz = () => {
   const handleUserId = (value) => {
     getUserId(value);
   };
+  const handleName = (value) => {
+    getName(value);
+  };
 
-  console.log(formName);
+  console.log(name);
 
   return (
     <>
@@ -28,12 +32,13 @@ export const Quiz = () => {
       <NavBar />
       <BackToTop />
       {isSubmitted ? (
-        <QuizGame quizlevel={formName} userDbId={userId} />
+        <QuizGame quizlevel={formName} userDbId={userId} Name={name} />
       ) : (
         <Form
           submit={handleIsSubmitted}
           formName={handleChildValue}
           userDbId={handleUserId}
+          Name={handleName}
         />
       )}
     </>

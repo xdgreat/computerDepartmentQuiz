@@ -1,0 +1,139 @@
+.quiz-container {
+  display: flex;
+  padding: 2em;
+  gap: 1em;
+  flex-flow: column wrap;
+  margin-inline: auto;
+  justify-content: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 1200px;
+  height: min-content;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.quiz-question {
+  max-width: 700px;
+  min-width: 400px;
+  margin-inline: auto;
+}
+
+.quiz-question-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.quiz-counter {
+  font-size: 45px;
+  margin-block-end: 0.5em;
+}
+
+.quiz-option-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25em 0.5em;
+  margin-block-start: 2em;
+  margin-inline: auto;
+  text-align: center;
+}
+.quiz-options {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  max-width: 500px;
+  min-width: 300px;
+  margin-block: 0.3em;
+  padding: 0.35em;
+  font-size: 23px;
+  outline: 1px solid;
+  border-radius: 6px;
+  background-color: #184391;
+  color: white;
+  cursor: pointer;
+}
+
+.quiz-options:last-child {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.quiz-options:hover {
+  background-color: #0e2552;
+  transition: background-color cubic-bezier(0.165, 0.84, 0.44, 1) 500ms;
+}
+
+.score-container {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.score-container > h1 {
+  margin-block: 2em;
+}
+
+.retry-btn {
+  font-size: 25px;
+  margin-inline: 0.5em;
+  padding: 0.25em 1em;
+  background-color: #ff681d;
+  color: white;
+  border-radius: 10px;
+}
+
+.exit-btn {
+  font-size: 25px;
+  margin-inline: 0.5em;
+  padding: 0.25em 1em;
+  background-color: #1f4195;
+  color: white;
+  border-radius: 10px;
+}
+
+.quiz-stats {
+  max-width: 700px;
+  font-weight: 400;
+}
+
+.user-info {
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  font-size: 19px;
+  text-align: start;
+  word-wrap: break-word;
+  max-width: 20ch;
+}
+
+.info-span {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.final-score {
+  position: relative;
+}
+
+.final-score::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  background-color: #ff681d;
+  width: 100%;
+}
+
+.final-score::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 3px;
+  background-color: #1f4195;
+  width: 100%;
+}

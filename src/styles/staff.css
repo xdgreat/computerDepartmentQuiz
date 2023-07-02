@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+
+.staff-section {
+}
+.staff-section > h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-block: 1em;
+  font-weight: 400;
+}
+.staff-cards {
+  margin-block: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-inline: 25em;
+  align-items: center;
+  text-align: start;
+  background-color: #f3f1f1;
+  padding-block: 2em;
+  transform: translateX(-500px);
+  opacity: 0;
+}
+
+.staff-cards:nth-child(3) {
+  flex-flow: row-reverse nowrap;
+  background-color: white;
+  color: black;
+  transform: translateX(500px);
+}
+
+.staff-cards:nth-child(3) > div > img {
+  margin-left: auto;
+  margin-right: 0;
+}
+.staff-picture {
+  flex-basis: 50%;
+}
+
+.staff-information {
+  flex-basis: 50%;
+}
+.staff-image {
+  width: 300px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.staff-name {
+  font-size: 40px;
+  margin-block-end: 1em;
+  font-weight: 100;
+  font-family: "DM Sans", sans-serif;
+}
+
+.staff-biography {
+  font-size: 20px;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
+}

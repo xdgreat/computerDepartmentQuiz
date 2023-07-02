@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Form.css";
 
-function Form({ submit, formName, userDbId }) {
+function Form({ submit, formName, userDbId, Name }) {
   const [data, setData] = useState([]);
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
   const [newClass, setNewClass] = useState("");
-  const [newId, setNewId] = useState("");
 
   useEffect(() => {
     fetchData();
@@ -37,40 +36,39 @@ function Form({ submit, formName, userDbId }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (
-      newFirstName.trim() !== "" &&
-      newLastName.trim() !== "" &&
-      newClass.trim() !== ""
-    ) {
-      const userData = {
-        firstName: newFirstName,
-        lastName: newLastName,
-        class: newClass,
-        status: "in progress",
-        score: 0,
-      };
-
-      fetch("http://localhost:3000/users", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(userData),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          setNewFirstName("");
-          setNewLastName("");
-          setNewClass("");
-          fetchData();
-          submit();
-          userDbId(data.id);
-          formName(newClass);
-        })
-        .catch((error) => {
-          console.error("Error submitting data:", error);
-        });
+    if (!newFirstName.trim() || !newLastName.trim() || !newClass.trim()) {
+      return;
     }
+
+    const userData = {
+      firstName: newFirstName,
+      lastName: newLastName,
+      userClass: newClass,
+      status: "In-Progress",
+      score: 0,
+    };
+    console.log(newClass);
+    fetch("http://localhost:3000/users", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(userData),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setNewFirstName("");
+        setNewLastName("");
+        setNewClass("");
+        fetchData();
+        submit();
+        userDbId(data.id);
+        formName(newClass);
+        Name(data.firstName);
+      })
+      .catch((error) => {
+        console.error("Error submitting data:", error);
+      });
   };
 
   return (
@@ -88,31 +86,56 @@ function Form({ submit, formName, userDbId }) {
           </p>
         </div>
         <form onSubmit={handleSubmit} className="quiz-form" id="quiz-form">
-          <label htmlFor="firstName">First Name</label>
+          <label htmlFor="firstName" className="quiz-label">
+            First Name
+          </label>
           <input
-            className="Name"
-            name="firstname"
+            className="FirstName"
+            name="FirstName"
             type="text"
             value={newFirstName}
             onChange={handleFirstNameChange}
           />
-          <label htmlFor="lastName">Last Name</label>
+          <label htmlFor="lastName" className="quiz-label">
+            Last Name
+          </label>
           <input
             className="LastName"
             name="lastName"
             type="text"
             value={newLastName}
             onChange={handleLastNameChange}
-            placeholder="Enter last name"
           />
-          <label htmlFor="class">Class</label>
-          <select name="class" value={newClass} onChange={handleClassChange}>
-            <option value="">Select a class</option>
-            <option value="Year 11">Year 11</option>
-            <option value="Year 12">Year 12</option>
-            <option value="Year 13">Year 13</option>
+          <label htmlFor="class" className="quiz-label">
+            Form
+          </label>
+          <select
+            name="newClass"
+            value={newClass}
+            onChange={handleClassChange}
+            className="select-form"
+          >
+            <option
+              value=""
+              disabled
+              className="select-options select-disabled"
+            >
+              Select a Form
+            </option>
+            <option value="Year 11" className="select-options">
+              Year 11
+            </option>
+            <option value="Year 12" className="select-options">
+              Year 12
+            </option>
+            <option value="Year 13" className="select-options">
+              Year 13
+            </option>
           </select>
-          <button type="submit">Let's Go</button>
+
+          <button type="submit" className="quiz-submit">
+            Let's Go
+          </button>
         </form>
       </div>
     </>

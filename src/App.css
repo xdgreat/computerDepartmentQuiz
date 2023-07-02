@@ -3,6 +3,7 @@
 
 body {
   font-family: "Nunito Sans", sans-serif;
+  /* color: #E86927; */
 }
 
 html {
@@ -26,7 +27,7 @@ html {
   border-bottom: 1px solid;
 }
 .list-container {
-  width: 70%;
+  width: 75%;
   margin-inline: auto;
   border-radius: 5px;
   padding: 2.5em;
@@ -35,25 +36,27 @@ html {
 }
 
 .lists {
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 400;
 }
 
 .form {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 400;
 }
 
 .score {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .status {
-  font-size: 25px;
+  font-size: 23px;
 }
 .listed-div {
   font-family: "Noto Sans", sans-serif;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
   flex-flow: row wrap;
   align-content: center;
   align-items: center;
@@ -61,10 +64,11 @@ html {
   padding: 1em;
   border-radius: 10px;
   margin-block: 1em;
-  width: 60%;
   margin-inline: auto;
-  min-height: 80px;
-
+  min-height: 100px;
+  max-width: 1200px;
+  width: 900px;
+  min-width: 700px;
   background-color: #184391;
   color: white;
   transform: translateX(-200px);
@@ -127,6 +131,7 @@ html {
 }
 
 .visible {
+  opacity: 1;
   visibility: visible;
   transform: translateY(0);
   transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;

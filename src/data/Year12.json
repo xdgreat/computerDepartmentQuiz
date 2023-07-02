@@ -111,7 +111,7 @@
         { "answer": "Google Drive", "isCorrect": true },
         { "answer": "Microsoft Excel", "isCorrect": false },
         { "answer": "Adobe Photoshop", "isCorrect": false },
-        { "answer": "Dropbox", "isCorrect": true },
+        { "answer": "FireFox", "isCorrect": false },
         { "answer": "Windows Media Player", "isCorrect": false }
       ]
     },
@@ -165,7 +165,7 @@
         { "answer": "Execute automated tests", "isCorrect": false },
         { "answer": "Optimize database performance", "isCorrect": false },
         { "answer": "Generate documentation", "isCorrect": false },
-        { "answer": "Debug software errors", "isCorrect": true }
+        { "answer": "Writes the code", "isCorrect": false }
       ]
     },
     {

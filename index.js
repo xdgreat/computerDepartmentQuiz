@@ -4,14 +4,14 @@ import cors from "cors";
 
 const app = express();
 const db = new sqlite3.Database(":memory:");
+app.use(cors());
 
 db.serialize(() => {
   db.run(
-    "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT, class TEXT, status TEXT, score INTEGER)"
+    "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT, userClass TEXT, status TEXT, score INTEGER)"
   );
 });
 
-app.use(cors());
 app.use(express.json());
 
 app.use((req, res, next) => {
@@ -34,10 +34,10 @@ app.get("/users", (req, res) => {
 });
 
 app.post("/users", (req, res) => {
-  const { firstName, lastName, class: userClass, status, score } = req.body;
+  const { firstName, lastName, userClass, status, score } = req.body;
 
   db.run(
-    "INSERT INTO users (firstName, lastName, class, status, score) VALUES (?, ?, ?, ?, ?)",
+    "INSERT INTO users (firstName, lastName, userClass, status, score) VALUES (?, ?, ?, ?, ?)",
     [firstName, lastName, userClass, status, score],
     function (err) {
       if (err) {
@@ -60,20 +60,33 @@ app.post("/users", (req, res) => {
 
 app.put("/users/:id/score", (req, res) => {
   const { id } = req.params;
-  const { score } = req.body;
+  const { score, status } = req.body;
 
   db.run(
-    "UPDATE users SET score = ? WHERE id = ?",
-    [score, id],
+    "UPDATE users SET score = ?, status = ? WHERE id = ?",
+    [score, status, id],
     function (err) {
       if (err) {
         console.error(err);
         res.status(500).send("Internal server error");
       } else {
-        res.json({ id: Number(id), score: Number(score) });
+        res.json({ id: Number(id), score: Number(score), status });
       }
     }
   );
+});
+
+app.delete("/users/:id", (req, res) => {
+  const { id } = req.params;
+
+  db.run("DELETE FROM users WHERE id = ?", id, function (err) {
+    if (err) {
+      console.error(err);
+      res.status(500).send("Internal server error");
+    } else {
+      res.sendStatus(200);
+    }
+  });
 });
 
 app.listen(3000, () => {
