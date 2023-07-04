@@ -5,6 +5,7 @@ import BackToTop from "./components/BackToTop";
 import "./App.css";
 import "./reset.css";
 import { StaffGallery } from "./components/staffGallery";
+import Aboutevent from "./components/aboutevent";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Hero />
 
       <StaffGallery />
-      {/* <Form /> */}
+      <Aboutevent />
       <BackToTop />
     </>
   );

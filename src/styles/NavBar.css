@@ -25,7 +25,7 @@
 }
 
 .colorChange {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #1f1f1f;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
