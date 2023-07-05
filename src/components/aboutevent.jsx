@@ -6,14 +6,6 @@ function Aboutevent() {
     <section className="about-event-container">
       <h1 className="about-event-title">Computer Department Week Outline</h1>
       <div className="about-event-section">
-        <div className="about-event-pictures">
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-        </div>
         <div className="about-event-content">
           <h1 className="about-title">Lorem ipsum dolor sit.</h1>
           <p className="about-paragraph">
@@ -51,14 +43,6 @@ function Aboutevent() {
             dolorum temporibus cumque, consectetur voluptatibus commodi libero
             neque et. Nesciunt itaque dolorem modi id minus? Placeat, velit hic!
           </p>
-        </div>
-        <div className="about-event-pictures">
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
-          <div className="pictures"></div>
         </div>
       </div>
     </section>

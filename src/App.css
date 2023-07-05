@@ -124,6 +124,7 @@ html {
   visibility: hidden;
   transform: translateY(100px);
   cursor: pointer;
+  z-index: 10;
 }
 
 .btt-icon {
