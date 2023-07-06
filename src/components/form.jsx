@@ -6,13 +6,16 @@ function Form({ submit, formName, userDbId, Name }) {
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
   const [newClass, setNewClass] = useState("");
-
+  
+  const hostUrl = window.location.hostname 
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = () => {
-    fetch("http://localhost:3000/users")
+
+    console.log(hostUrl)
+    fetch(`http://${hostUrl}:3000/users`)
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -48,7 +51,7 @@ function Form({ submit, formName, userDbId, Name }) {
       score: 0,
     };
     console.log(newClass);
-    fetch("http://localhost:3000/users", {
+    fetch(`http://${hostUrl}:3000/users`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

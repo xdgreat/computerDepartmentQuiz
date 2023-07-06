@@ -7,7 +7,7 @@ function Admin() {
   const [users, setUsers] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState([]);
-
+const hostUrl = window.location.hostname
   useEffect(() => {
     fetchData();
 
@@ -26,7 +26,7 @@ function Admin() {
   }, [searchTerm, users]);
 
   const fetchData = () => {
-    fetch("http://localhost:3000/users")
+    fetch(`http://${hostUrl}:3000/users`)
       .then((res) => res.json())
       .then((data) => {
         setUsers(data);

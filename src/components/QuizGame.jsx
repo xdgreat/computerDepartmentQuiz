@@ -9,7 +9,7 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
   const [quizCounter, setQuizCounter] = useState(0);
   const [showStats, setShowStats] = useState(false);
   const [score, setScore] = useState(0);
-
+const hostUrl = window.location.hostname
   console.log(Name);
   const level = quizlevel;
 
@@ -45,7 +45,7 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
   const updateScore = (scoreCount) => {
     const userId = userDbId;
     const newStatus = "Completed";
-    fetch(`http://localhost:3000/users/${userId}/score`, {
+    fetch(`http://${hostUrl}:3000/users/${userId}/score`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
