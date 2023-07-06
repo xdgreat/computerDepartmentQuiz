@@ -1,0 +1,38 @@
+.about-event-container {
+}
+.about-event-title {
+  text-align: center;
+  font-size: 50px;
+  margin-block: 2em;
+}
+.about-event-section {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-inline: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-event-pictures {
+  flex-basis: 12.5%;
+  transform: translateY(-10em);
+  position: relative;
+}
+
+.about-event-content {
+  flex-basis: 50%;
+  outline: 1px solid;
+  padding: 1em 2em;
+  height: fit-content;
+}
+
+.about-title {
+  margin-block: 1em;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about-paragraph {
+  font-size: 22px;
+}
