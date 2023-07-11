@@ -38,7 +38,7 @@ export const Quiz = () => {
           submit={handleIsSubmitted}
           formName={handleChildValue}
           userDbId={handleUserId}
-          Name={handleName}
+          Name={handleName} 
         />
       )}
     </>

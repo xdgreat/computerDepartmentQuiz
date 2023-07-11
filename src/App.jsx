@@ -7,6 +7,7 @@ import "./reset.css";
 import { StaffGallery } from "./components/staffGallery";
 import Aboutevent from "./components/aboutevent";
 import Quizlink from "./components/quizlink";
+import ProjectGallery from "./components/ProjectGallery";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Aboutevent />
       <BackToTop />
       <Quizlink />
+      <ProjectGallery />
     </>
   );
 }
