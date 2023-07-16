@@ -1,0 +1,128 @@
+.y13-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  text-align: center;
+  /* gap: 2.5vw; */
+  row-gap: 2.5vw;
+  width: 90vw;
+  max-width: 90%;
+  margin-inline: auto;
+}
+.container {
+  background-color: #ebebeb;
+  padding-block: 1em;
+  padding-block-end: 7em;
+}
+
+.y13-card-title {
+  font-weight: 300;
+  font-size: 30px;
+  margin-block: 1em;
+}
+.y13-card-container {
+  width: 600px;
+  overflow: hidden;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  opacity: 0;
+  transition: scale 0.3s ease;
+  scale: 1;
+}
+
+.y13-card-img {
+  transition: transform 1.25s linear;
+}
+
+.y13-card-container:hover .y13-card-img {
+  transform: translateY(calc(-100% + 300px));
+  transition: transform 2.5s linear;
+}
+
+.y13-card-container:hover {
+  scale: 1.1;
+  transition: scale 0.3s ease;
+}
+.project-gallery-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+  margin-block-start: 2em;
+  margin-block-end: 2.5em;
+  width: 50%;
+  margin-inline: auto;
+}
+
+.project-gallery-subtitle {
+  margin-inline: auto;
+  text-align: center;
+  width: 50%;
+  margin-block-start: 3em;
+  margin-block-end: 1em;
+  font-size: 40px;
+}
+
+.y12-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  text-align: center;
+  row-gap: 2.5vw;
+  width: 90vw;
+  max-width: 90%;
+  margin-inline: auto;
+}
+
+.y12-card-container {
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: scale ease 0.3s;
+}
+
+.y12-card-title {
+  font-weight: 300;
+  font-size: 30px;
+  margin-block: 1em;
+}
+
+.y12-card-container:hover {
+  scale: 1.1;
+  transition: scale ease 0.3s;
+}
+.y13-container > div:last-child {
+  grid-column: span 2;
+}
+
+.y12-card-img {
+  opacity: 1;
+}
+
+.card-container {
+  opacity: 0;
+}
+@keyframes slideUpAnimation {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slideUpProject {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  opacity: 1;
+}
+
+.slideUpProjectY12 {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  opacity: 1;
+}

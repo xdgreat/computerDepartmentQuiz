@@ -29,8 +29,6 @@ export const StaffCards = ({ imageSrc, name, bio }) => {
   useEffect(() => {
     if (isIntersecting && ref.current) {
       ref.current.classList.add("slide-in");
-    } else if (!isIntersecting && ref.current) {
-      ref.current.classList.remove("slide-in");
     }
   }, [isIntersecting]);
   return (

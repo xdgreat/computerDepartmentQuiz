@@ -9,8 +9,7 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
   const [quizCounter, setQuizCounter] = useState(0);
   const [showStats, setShowStats] = useState(false);
   const [score, setScore] = useState(0);
-const hostUrl = window.location.hostname
-  console.log(Name);
+  const hostUrl = window.location.hostname;
   const level = quizlevel;
 
   let quizLevelArr;

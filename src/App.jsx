@@ -4,10 +4,11 @@ import NavBar from "./components/NavBar";
 import BackToTop from "./components/BackToTop";
 import "./App.css";
 import "./reset.css";
-import { StaffGallery } from "./components/staffGallery";
+import { StaffGallery } from "./components/StaffGallery";
 import Aboutevent from "./components/aboutevent";
 import Quizlink from "./components/quizlink";
 import ProjectGallery from "./components/ProjectGallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <BackToTop />
       <Quizlink />
       <ProjectGallery />
+      <Footer />
     </>
   );
 }

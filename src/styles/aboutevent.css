@@ -1,29 +1,36 @@
-.about-event-container {
-}
 .about-event-title {
   text-align: center;
-  font-size: 50px;
-  margin-block: 2em;
+  font-size: 45px;
+  margin-block: 1em;
+  margin-block-start: 2em;
 }
-.about-event-section {
-  display: flex;
-  flex-flow: row nowrap;
+
+.about-event-container {
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 70dvw;
+  row-gap: 3dvw;
   margin-inline: auto;
-  justify-content: center;
-  text-align: center;
+  margin-block: 1em;
 }
 
-.about-event-pictures {
-  flex-basis: 12.5%;
-  transform: translateY(-10em);
-  position: relative;
+.about-h3 {
+  font-size: 26px;
+  font-weight: 300;
+  margin-block: 0.5em;
 }
 
-.about-event-content {
-  flex-basis: 50%;
-  outline: 1px solid;
-  padding: 1em 2em;
-  height: fit-content;
+.about-li {
+  list-style-type: disc;
+  margin-inline-start: 2em;
+}
+
+.about-h2 {
+  font-size: 40px;
+  margin-block: 1em;
+  font-weight: 300;
 }
 
 .about-title {
@@ -34,5 +41,100 @@
 }
 
 .about-paragraph {
-  font-size: 22px;
+  font-size: 24px;
+  margin-block: 1em;
+  text-align: start;
+}
+
+.about-card-container {
+  width: 350px;
+  aspect-ratio: 1;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: nowrap column;
+  align-items: center;
+  border-radius: 5px;
+  opacity: 0;
+  outline: 1px solid;
+}
+
+/*TODO  display text on hover, hide the title */
+
+.slideUp > div:nth-child(1) {
+  transform: translateY(0);
+  opacity: 1;
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+}
+.slideUp > div:nth-child(2) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 200ms;
+  opacity: 1;
+}
+.slideUp > div:nth-child(3) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 400ms;
+  opacity: 1;
+}
+
+.slideUp > div:nth-child(4) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 600ms;
+  opacity: 1;
+}
+
+.slideUp > div:nth-child(5) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 800ms;
+  opacity: 1;
+}
+
+.slideUp > div:nth-child(6) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 1000ms;
+  opacity: 1;
+}
+
+.slideUp > div:nth-child(7) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 1200ms;
+  opacity: 1;
+}
+.slideUp > div:nth-child(8) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 1400ms;
+  opacity: 1;
+}
+.slideUp > div:nth-child(9) {
+  transform: translateY(0);
+  animation: slideUpAnimation cubic-bezier(0.175, 0.885, 0.32, 1.275) 400ms
+    backwards;
+  animation-delay: 1600ms;
+  opacity: 1;
+}
+
+@keyframes slideUpAnimation {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1 !important;
+  }
 }

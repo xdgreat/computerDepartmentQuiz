@@ -24,8 +24,6 @@ export const Quiz = () => {
     getName(value);
   };
 
-  console.log(name);
-
   return (
     <>
       <NavSpace />
@@ -38,7 +36,7 @@ export const Quiz = () => {
           submit={handleIsSubmitted}
           formName={handleChildValue}
           userDbId={handleUserId}
-          Name={handleName} 
+          Name={handleName}
         />
       )}
     </>

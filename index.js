@@ -1,7 +1,6 @@
 import express from "express";
 import sqlite3 from "sqlite3";
 import cors from "cors";
-
 const app = express();
 const db = new sqlite3.Database(":memory:");
 app.use(cors());

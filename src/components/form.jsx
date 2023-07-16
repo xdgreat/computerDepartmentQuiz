@@ -6,15 +6,13 @@ function Form({ submit, formName, userDbId, Name }) {
   const [newFirstName, setNewFirstName] = useState("");
   const [newLastName, setNewLastName] = useState("");
   const [newClass, setNewClass] = useState("");
-  
-  const hostUrl = window.location.hostname 
+
+  const hostUrl = window.location.hostname;
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = () => {
-
-    console.log(hostUrl)
     fetch(`http://${hostUrl}:3000/users`)
       .then((res) => res.json())
       .then((data) => {
@@ -50,7 +48,6 @@ function Form({ submit, formName, userDbId, Name }) {
       status: "In-Progress",
       score: 0,
     };
-    console.log(newClass);
     fetch(`http://${hostUrl}:3000/users`, {
       method: "POST",
       headers: {
@@ -73,6 +70,8 @@ function Form({ submit, formName, userDbId, Name }) {
         console.error("Error submitting data:", error);
       });
   };
+
+  // TODO Get Random questions from json
 
   return (
     <>

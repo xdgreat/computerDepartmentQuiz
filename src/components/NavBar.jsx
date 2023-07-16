@@ -20,20 +20,20 @@ export default function NavBar({ activeClass }) {
       }
     >
       <div className="left-nav">
-        <Link to={"/"}>
+        <a href="/">
           <img src={logo} alt="" className="logo" />
-        </Link>
+        </a>
       </div>
       <div className="right-nav">
-        <Link to={NavBar} className="links">
-          History
-        </Link>
-        <Link to={NavBar} className="links">
+        <a href={"/#job"} className="links">
+          Job
+        </a>
+        <a href={"/#projects"} className="links">
           Projects
-        </Link>
-        <Link to={"/quiz"} className="links">
+        </a>
+        <a href="/quiz" className="links">
           Quiz
-        </Link>
+        </a>
       </div>
     </nav>
   );

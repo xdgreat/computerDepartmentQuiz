@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  padding: 2em 2em;
+  background-color: #18429113;
+}
+
+footer > div:first-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer > div:first-child > div:first-child > img {
+  width: 120px;
+  aspect-ratio: 1;
+}
+
+footer > div:first-child > div:nth-child(2) > a {
+  display: block;
+  font-size: 20px;
+  text-align: start;
+}
+
+footer > div:first-child > div:nth-child(3) > a {
+  display: block;
+  font-size: 20px;
+  text-align: start;
+}
+
+footer > div:last-child {
+  font-size: 23px;
+  margin-block-start: 1em;
+}

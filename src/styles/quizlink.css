@@ -3,6 +3,9 @@
   margin-block: 3em;
   position: relative;
   color: #fefefe;
+  height: 45dvh;
+  display: grid;
+  place-items: center;
 }
 
 .quiz-link-section::before {

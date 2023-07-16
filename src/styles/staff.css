@@ -12,6 +12,7 @@
 }
 .staff-cards {
   margin-block: 1em;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 500ms;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -20,7 +21,7 @@
   text-align: start;
   background-color: #f7f7f7a9;
   padding-block: 2em;
-  transform: translateX(-500px);
+  transform: translateX(-200px);
   opacity: 0;
 }
 

@@ -119,3 +119,6 @@
   outline: 1px solid red;
   box-shadow: none;
 }
+.select-options:hover {
+  cursor: pointer;
+}

@@ -8,7 +8,7 @@ import "../styles/staff.css";
 export const StaffGallery = () => {
   return (
     <section className="staff-section">
-      <h1>
+      <h1 className="title">
         Meet Our Staff{" "}
         <svg
           width={46}
