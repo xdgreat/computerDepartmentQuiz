@@ -8,6 +8,9 @@ import SuperElectricity from "../assets/SuperElectricity.jpg";
 import JulumTech from "../assets/JulumTech.png";
 import DavShee from "../assets/DavShee.png";
 import "../styles/ProjectGallery.css";
+import interface1 from "../assets/interface1.png";
+import interface2 from "../assets/interface2.png";
+import interface3 from "../assets/interface3.png";
 
 const ProjectGallery = () => {
   return (
@@ -52,9 +55,9 @@ const ProjectGallery = () => {
         </div>
         <div className="y12-container">
           <Y12Project name={"Super Electricity"} image={SuperElectricity} />
-          <Y12Project name={"Super Electricity"} image={SuperElectricity} />
-          <Y12Project name={"Super Electricity"} image={SuperElectricity} />
-          <Y12Project name={"Super Electricity"} image={SuperElectricity} />
+          <Y12Project name={"Super Electricity"} image={interface1} />
+          <Y12Project name={"Super Electricity"} image={interface2} />
+          <Y12Project name={"Super Electricity"} image={interface3} />
           <Y12Project name={"Super Electricity"} image={SuperElectricity} />
           <Y12Project name={"Super Electricity"} image={SuperElectricity} />
         </div>

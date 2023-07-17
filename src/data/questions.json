@@ -1,909 +1,701 @@
 {
   "questions": [
     {
-      "question": "Who is credited with inventing the World Wide Web?",
+      "question": "What is the basic unit of digital information storage in a computer?",
       "options": [
-        { "answer": "Tim Berners-Lee", "isCorrect": true },
-        { "answer": "Alan Turing", "isCorrect": false },
-        { "answer": "Bill Gates", "isCorrect": false },
-        { "answer": "Steve Jobs", "isCorrect": false },
-        { "answer": "Mark Zuckerberg", "isCorrect": false }
+        { "answer": "Bit", "isCorrect": false },
+        { "answer": "Byte", "isCorrect": false },
+        { "answer": "Megabyte", "isCorrect": false },
+        { "answer": "Gigabyte", "isCorrect": true },
+        { "answer": "Kilobyte", "isCorrect": false }
       ]
     },
     {
-      "question": "What does RAM stand for in computing?",
+      "question": "What does CPU stand for?",
       "options": [
-        { "answer": "Random Access Memory", "isCorrect": true },
-        { "answer": "Read-Only Memory", "isCorrect": false },
-        { "answer": "Rapid Application Memory", "isCorrect": false },
-        { "answer": "Reliable Access Memory", "isCorrect": false },
-        { "answer": "Randomized Algorithm Memory", "isCorrect": false }
+        { "answer": "Central Processing Unit", "isCorrect": true },
+        { "answer": "Computer Processing Unit", "isCorrect": false },
+        { "answer": "Core Processing Unit", "isCorrect": false },
+        { "answer": "Control Processing Unit", "isCorrect": false },
+        { "answer": "Central Power Unit", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the main purpose of a GPU in a computer?",
+      "question": "What is the purpose of an SSD (Solid State Drive) in a computer?",
       "options": [
-        { "answer": "Rendering Graphics and Images", "isCorrect": true },
-        { "answer": "Managing Network Connections", "isCorrect": false },
-        { "answer": "Processing and Storing Data", "isCorrect": false },
-        { "answer": "Providing Power Supply to Devices", "isCorrect": false },
-        { "answer": "Encrypting Sensitive Data", "isCorrect": false }
+        { "answer": "To process data faster", "isCorrect": false },
+        { "answer": "To provide extra USB ports", "isCorrect": false },
+        { "answer": "To store and retrieve data quickly", "isCorrect": true },
+        { "answer": "To cool down the CPU", "isCorrect": false },
+        { "answer": "To display high-quality graphics", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the function of a compiler in programming?",
+      "question": "What does CPU cache do in a computer?",
       "options": [
+        { "answer": "Stores the operating system files", "isCorrect": false },
+        { "answer": "Manages internet browsing history", "isCorrect": false },
         {
-          "answer": "Translating Code into Machine Language",
+          "answer": "Speeds up access to frequently used data",
           "isCorrect": true
         },
-        { "answer": "Managing Database Connections", "isCorrect": false },
-        { "answer": "Creating Graphical User Interfaces", "isCorrect": false },
-        { "answer": "Storing and Retrieving Data", "isCorrect": false },
-        { "answer": "Protecting Against Viruses", "isCorrect": false }
+        { "answer": "Keeps a log of user activities", "isCorrect": false },
+        { "answer": "Controls peripheral devices", "isCorrect": false }
       ]
     },
     {
-      "question": "Which programming language is often used for artificial intelligence and machine learning?",
+      "question": "What is the function of an Ethernet port on a computer?",
       "options": [
-        { "answer": "Python", "isCorrect": true },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false },
-        { "answer": "Swift", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of an IDE (Integrated Development Environment)?",
-      "options": [
+        { "answer": "To connect to a wireless network", "isCorrect": false },
+        { "answer": "To play audio and video files", "isCorrect": false },
         {
-          "answer": "To provide tools for software development in one interface",
+          "answer": "To connect to the internet via a wired network",
           "isCorrect": true
         },
-        { "answer": "To connect to the internet securely", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To store and manage databases", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a server-side scripting language?",
-      "options": [
-        { "answer": "PHP", "isCorrect": true },
-        { "answer": "JavaScript", "isCorrect": false },
-        { "answer": "HTML", "isCorrect": false },
-        { "answer": "CSS", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the role of a DNS (Domain Name System) in internet technology?",
-      "options": [
+        { "answer": "To charge external devices", "isCorrect": false },
         {
-          "answer": "Resolving domain names to IP addresses",
-          "isCorrect": true
-        },
-        { "answer": "Creating and Editing Documents", "isCorrect": false },
-        { "answer": "Performing Complex Calculations", "isCorrect": false },
-        { "answer": "Connecting to External Devices", "isCorrect": false },
-        { "answer": "Managing Network Security", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which company developed the C programming language?",
-      "options": [
-        { "answer": "Bell Labs", "isCorrect": true },
-        { "answer": "IBM", "isCorrect": false },
-        { "answer": "Microsoft", "isCorrect": false },
-        { "answer": "Oracle", "isCorrect": false },
-        { "answer": "Google", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a VPN (Virtual Private Network)?",
-      "options": [
-        {
-          "answer": "Securely connecting to a private network over the internet",
-          "isCorrect": true
-        },
-        {
-          "answer": "Storing and Retrieving Data from Cloud Servers",
+          "answer": "To provide a high-speed internet connection",
           "isCorrect": false
-        },
-        { "answer": "Providing Power Supply to Devices", "isCorrect": false },
-        {
-          "answer": "Creating Visual Effects for Films and Media",
-          "isCorrect": false
-        },
-        { "answer": "Managing Hardware Resources", "isCorrect": false }
+        }
       ]
     },
     {
-      "question": "What does CSS stand for in web development?",
+      "question": "Which component of a computer is responsible for converting digital signals to analog signals and vice versa?",
       "options": [
-        { "answer": "Cascading Style Sheets", "isCorrect": true },
-        { "answer": "Centralized Styling System", "isCorrect": false },
-        { "answer": "Custom Styling Script", "isCorrect": false },
-        { "answer": "Computer Style System", "isCorrect": false },
-        { "answer": "Control Source Styles", "isCorrect": false }
+        { "answer": "CPU", "isCorrect": false },
+        { "answer": "GPU", "isCorrect": false },
+        { "answer": "Modem", "isCorrect": true },
+        { "answer": "Router", "isCorrect": false },
+        { "answer": "SSD", "isCorrect": false }
       ]
     },
     {
-      "question": "Which of the following is a popular NoSQL database management system?",
+      "question": "Which of the following programming languages is used for web development?",
       "options": [
-        { "answer": "MongoDB", "isCorrect": true },
-        { "answer": "MySQL", "isCorrect": false },
-        { "answer": "SQLite", "isCorrect": false },
-        { "answer": "PostgreSQL", "isCorrect": false },
-        { "answer": "Redis", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the main function of a microprocessor in a computer?",
-      "options": [
-        {
-          "answer": "Executing Instructions and Performing Calculations",
-          "isCorrect": true
-        },
-        { "answer": "Blocking Unauthorized Access", "isCorrect": false },
-        { "answer": "Connecting to External Devices", "isCorrect": false },
-        { "answer": "Creating Graphical User Interfaces", "isCorrect": false },
-        { "answer": "Scanning for Viruses", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for web development and server-side scripting?",
-      "options": [
+        { "answer": "C++", "isCorrect": false },
         { "answer": "JavaScript", "isCorrect": true },
-        { "answer": "Java", "isCorrect": false },
+        { "answer": "Ruby", "isCorrect": false },
+        { "answer": "Swift", "isCorrect": false },
+        { "answer": "Python", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the acronym URL stand for in the context of the internet?",
+      "options": [
+        { "answer": "Universal Resource Locator", "isCorrect": true },
+        { "answer": "User Review Link", "isCorrect": false },
+        { "answer": "Ultrafast Radio Link", "isCorrect": false },
+        { "answer": "Underlying Routing Language", "isCorrect": false },
+        { "answer": "Uniform Resource Language", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of software allows you to browse the internet and view web pages?",
+      "options": [
+        { "answer": "Word processor", "isCorrect": false },
+        { "answer": "Spreadsheet software", "isCorrect": false },
+        { "answer": "Web browser", "isCorrect": true },
+        { "answer": "Presentation software", "isCorrect": false },
+        { "answer": "Database software", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a firewall in computer security?",
+      "options": [
+        { "answer": "To improve internet speed", "isCorrect": false },
+        {
+          "answer": "To block unauthorized access and control network traffic",
+          "isCorrect": true
+        },
+        { "answer": "To provide faster processing speed", "isCorrect": false },
+        { "answer": "To protect against power surges", "isCorrect": false },
+        { "answer": "To connect to a wireless network", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which file format is commonly used for digital images with lossless compression?",
+      "options": [
+        { "answer": "JPEG", "isCorrect": false },
+        { "answer": "GIF", "isCorrect": false },
+        { "answer": "PNG", "isCorrect": true },
+        { "answer": "MP3", "isCorrect": false },
+        { "answer": "TIFF", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the role of a GPU (Graphics Processing Unit) in a computer?",
+      "options": [
+        { "answer": "To control the internet connection", "isCorrect": false },
+        {
+          "answer": "To display images and videos on the monitor",
+          "isCorrect": true
+        },
+        { "answer": "To manage the printer", "isCorrect": false },
+        { "answer": "To store user data", "isCorrect": false },
+        { "answer": "To speed up the boot-up process", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a compiler in programming?",
+      "options": [
+        {
+          "answer": "To translate source code into machine code",
+          "isCorrect": true
+        },
+        { "answer": "To compress files for storage", "isCorrect": false },
+        { "answer": "To debug computer programs", "isCorrect": false },
+        { "answer": "To clean the computer screen", "isCorrect": false },
+        { "answer": "To optimize internet speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the cloud in the context of computing?",
+      "options": [
+        {
+          "answer": "A physical location where old computers are stored",
+          "isCorrect": false
+        },
+        { "answer": "A network of satellites in space", "isCorrect": false },
+        {
+          "answer": "An online storage and computing service accessed via the internet",
+          "isCorrect": true
+        },
+        {
+          "answer": "A group of computers connected by cables",
+          "isCorrect": false
+        },
+        {
+          "answer": "A type of software for organizing files",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is a LAN (Local Area Network)?",
+      "options": [
+        { "answer": "A type of computer virus", "isCorrect": false },
+        {
+          "answer": "A network that covers a large geographical area",
+          "isCorrect": false
+        },
+        {
+          "answer": "A network that connects computers within a limited area, like a home or office",
+          "isCorrect": true
+        },
+        { "answer": "A computer hardware component", "isCorrect": false },
+        { "answer": "A type of computer software", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does HTML stand for in web development?",
+      "options": [
+        { "answer": "Hypertext Text Protocol", "isCorrect": false },
+        { "answer": "Hypertext Transfer Protocol", "isCorrect": false },
+        { "answer": "High-Tech Multimedia Link", "isCorrect": false },
+        { "answer": "Hypertext Markup Language", "isCorrect": true },
+        {
+          "answer": "Hyperlink and Text Manipulation Language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of an antivirus program?",
+      "options": [
+        {
+          "answer": "To display advertisements on the computer screen",
+          "isCorrect": false
+        },
+        {
+          "answer": "To protect against physical damage to the computer",
+          "isCorrect": false
+        },
+        {
+          "answer": "To remove viruses and malware from the computer",
+          "isCorrect": true
+        },
+        {
+          "answer": "To increase the computer's processing speed",
+          "isCorrect": false
+        },
+        { "answer": "To improve internet connectivity", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of an open-source software?",
+      "options": [
+        { "answer": "Microsoft Office", "isCorrect": false },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Google Chrome", "isCorrect": true },
+        { "answer": "Mozilla Firefox", "isCorrect": false },
+        { "answer": "Apple iWork", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a DNS (Domain Name System) in networking?",
+      "options": [
+        {
+          "answer": "To convert IP addresses to domain names",
+          "isCorrect": false
+        },
+        {
+          "answer": "To convert domain names to IP addresses",
+          "isCorrect": true
+        },
+        { "answer": "To store data in the cloud", "isCorrect": false },
+        { "answer": "To protect against cyber attacks", "isCorrect": false },
+        { "answer": "To manage internet speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which type of software is used for creating 3D models and animations?",
+      "options": [
+        { "answer": "Video editing software", "isCorrect": false },
+        { "answer": "Animation software", "isCorrect": false },
+        { "answer": "3D modeling software", "isCorrect": true },
+        { "answer": "Audio editing software", "isCorrect": false },
+        { "answer": "Graphics design software", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a VPN (Virtual Private Network) in computing?",
+      "options": [
+        { "answer": "To create 3D models and animations", "isCorrect": false },
+        {
+          "answer": "To simulate the behavior of hardware and run multiple operating systems on the same physical machine",
+          "isCorrect": false
+        },
+        {
+          "answer": "To provide a secure internet connection and protect privacy",
+          "isCorrect": true
+        },
+        {
+          "answer": "To automatically fix computer errors",
+          "isCorrect": false
+        },
+        { "answer": "To improve internet speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the term 'algorithm' mean in computer science?",
+      "options": [
+        {
+          "answer": "A series of instructions that a computer can understand and execute",
+          "isCorrect": true
+        },
+        {
+          "answer": "A computer virus that spreads quickly",
+          "isCorrect": false
+        },
+        {
+          "answer": "A type of computer hardware component",
+          "isCorrect": false
+        },
+        {
+          "answer": "A new computer language for advanced users",
+          "isCorrect": false
+        },
+        {
+          "answer": "A set of rules for computer programming",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a cloud-based productivity suite?",
+      "options": [
+        { "answer": "Microsoft Office 365", "isCorrect": true },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Apple iWork", "isCorrect": false },
+        { "answer": "GIMP", "isCorrect": false },
+        { "answer": "OpenOffice", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a graphics tablet in digital art and design?",
+      "options": [
+        {
+          "answer": "To display high-quality graphics on the screen",
+          "isCorrect": false
+        },
+        {
+          "answer": "To improve the performance of the CPU",
+          "isCorrect": false
+        },
+        {
+          "answer": "To provide an input device for artists to draw and create directly on the tablet surface",
+          "isCorrect": true
+        },
+        { "answer": "To store digital files securely", "isCorrect": false },
+        { "answer": "To create 3D models for animations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the term 'metadata' refer to in the context of digital files?",
+      "options": [
+        {
+          "answer": "Data that provides information about other data",
+          "isCorrect": true
+        },
+        { "answer": "A type of computer virus", "isCorrect": false },
+        {
+          "answer": "A set of mathematical operations for data encryption",
+          "isCorrect": false
+        },
+        { "answer": "A type of video file format", "isCorrect": false },
+        {
+          "answer": "Data that is not relevant to the file",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a data storage unit that is larger than a terabyte?",
+      "options": [
+        { "answer": "Megabyte (MB)", "isCorrect": false },
+        { "answer": "Gigabyte (GB)", "isCorrect": false },
+        { "answer": "Petabyte (PB)", "isCorrect": true },
+        { "answer": "Exabyte (EB)", "isCorrect": false },
+        { "answer": "Terabyte (TB)", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "To process data faster",
+      "options": [
+        { "answer": "To process data faster", "isCorrect": false },
+        { "answer": "To provide extra USB ports", "isCorrect": false },
+        { "answer": "To store and retrieve data quickly", "isCorrect": true },
+        { "answer": "To cool down the CPU", "isCorrect": false },
+        { "answer": "To display high-quality graphics", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does CPU cache do in a computer?",
+      "options": [
+        { "answer": "Stores the operating system files", "isCorrect": false },
+        { "answer": "Manages internet browsing history", "isCorrect": false },
+        {
+          "answer": "Speeds up access to frequently used data",
+          "isCorrect": true
+        },
+        { "answer": "Keeps a log of user activities", "isCorrect": false },
+        { "answer": "Controls peripheral devices", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the function of an Ethernet port on a computer?",
+      "options": [
+        { "answer": "To connect to a wireless network", "isCorrect": false },
+        { "answer": "To play audio and video files", "isCorrect": false },
+        {
+          "answer": "To connect to the internet via a wired network",
+          "isCorrect": true
+        },
+        { "answer": "To charge external devices", "isCorrect": false },
+        {
+          "answer": "To provide a high-speed internet connection",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which component of a computer is responsible for converting digital signals to analog signals and vice versa?",
+      "options": [
+        { "answer": "CPU", "isCorrect": false },
+        { "answer": "GPU", "isCorrect": false },
+        { "answer": "Modem", "isCorrect": true },
+        { "answer": "Router", "isCorrect": false },
+        { "answer": "SSD", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which of the following programming languages is used for web development?",
+      "options": [
         { "answer": "C++", "isCorrect": false },
+        { "answer": "JavaScript", "isCorrect": true },
+        { "answer": "Ruby", "isCorrect": false },
         { "answer": "Swift", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a UPS (Uninterruptible Power Supply) in a computer setup?",
-      "options": [
-        {
-          "answer": "To provide backup power during outages",
-          "isCorrect": true
-        },
-        { "answer": "To manage network traffic", "isCorrect": false },
-        { "answer": "To store and manage data", "isCorrect": false },
-        { "answer": "To create visual masterpieces", "isCorrect": false },
-        { "answer": "To connect multiple networks", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a front-end framework for web development?",
-      "options": [
-        { "answer": "React.js", "isCorrect": true },
-        { "answer": "Django", "isCorrect": false },
-        { "answer": "Flask", "isCorrect": false },
-        { "answer": "Spring Boot", "isCorrect": false },
-        { "answer": "Express.js", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a USB (Universal Serial Bus)?",
-      "options": [
-        {
-          "answer": "To connect external devices to a computer",
-          "isCorrect": true
-        },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To store and manage databases", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for mobile app development on iOS devices?",
-      "options": [
-        { "answer": "Swift", "isCorrect": true },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does FTP stand for in computer networking?",
-      "options": [
-        { "answer": "File Transfer Protocol", "isCorrect": true },
-        { "answer": "Fast Transmission Protocol", "isCorrect": false },
-        { "answer": "Full Text Search", "isCorrect": false },
-        { "answer": "File Tracking Process", "isCorrect": false },
-        { "answer": "File Testing Procedure", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a proxy server in internet technology?",
-      "options": [
-        {
-          "answer": "To act as an intermediary between clients and servers",
-          "isCorrect": true
-        },
-        {
-          "answer": "To encrypt data for secure transmission",
-          "isCorrect": false
-        },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To connect to external devices", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a cloud computing service provided by Amazon?",
-      "options": [
-        { "answer": "Amazon Web Services (AWS)", "isCorrect": true },
-        { "answer": "Google Cloud Platform (GCP)", "isCorrect": false },
-        { "answer": "Microsoft Azure", "isCorrect": false },
-        { "answer": "IBM Cloud", "isCorrect": false },
-        { "answer": "Oracle Cloud", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the main function of an SSL certificate on a website?",
-      "options": [
-        {
-          "answer": "To encrypt data for secure communication",
-          "isCorrect": true
-        },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To perform complex calculations", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a popular version control system used in software development?",
-      "options": [
-        { "answer": "Git", "isCorrect": true },
-        { "answer": "Subversion (SVN)", "isCorrect": false },
-        { "answer": "Mercurial", "isCorrect": false },
-        { "answer": "Perforce", "isCorrect": false },
-        { "answer": "CVS (Concurrent Versions System)", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does API stand for in software development?",
-      "options": [
-        { "answer": "Application Programming Interface", "isCorrect": true },
-        { "answer": "Automated Programming Interface", "isCorrect": false },
-        { "answer": "Advanced Protocol Integration", "isCorrect": false },
-        { "answer": "Agile Process Improvement", "isCorrect": false },
-        { "answer": "Adaptive Programming Interface", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for data visualization and statistical analysis?",
-      "options": [
-        { "answer": "R", "isCorrect": true },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of an email client software?",
-      "options": [
-        { "answer": "To manage and send emails", "isCorrect": true },
-        {
-          "answer": "To protect against viruses and malware",
-          "isCorrect": false
-        },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To manage network connections", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does URL stand for in internet technology?",
-      "options": [
-        { "answer": "Uniform Resource Locator", "isCorrect": true },
-        { "answer": "Universal Retrieval Link", "isCorrect": false },
-        { "answer": "User Registration List", "isCorrect": false },
-        { "answer": "Uniform Routing Link", "isCorrect": false },
-        { "answer": "User Role Login", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a back-end programming language?",
-      "options": [
-        { "answer": "PHP", "isCorrect": true },
-        { "answer": "HTML", "isCorrect": false },
-        { "answer": "JavaScript", "isCorrect": false },
-        { "answer": "CSS", "isCorrect": false },
         { "answer": "Python", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the function of an accelerometer in mobile devices?",
+      "question": "What does the acronym URL stand for in the context of the internet?",
       "options": [
-        { "answer": "To detect orientation and motion", "isCorrect": true },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To store and manage data", "isCorrect": false },
-        { "answer": "To create visual masterpieces", "isCorrect": false },
-        { "answer": "To connect multiple networks", "isCorrect": false }
+        { "answer": "Universal Resource Locator", "isCorrect": true },
+        { "answer": "User Review Link", "isCorrect": false },
+        { "answer": "Ultrafast Radio Link", "isCorrect": false },
+        { "answer": "Underlying Routing Language", "isCorrect": false },
+        { "answer": "Uniform Resource Language", "isCorrect": false }
       ]
     },
     {
-      "question": "Which programming language is often used for game development on Android devices?",
+      "question": "Which type of software allows you to browse the internet and view web pages?",
       "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "C++", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
+        { "answer": "Word processor", "isCorrect": false },
+        { "answer": "Spreadsheet software", "isCorrect": false },
+        { "answer": "Web browser", "isCorrect": true },
+        { "answer": "Presentation software", "isCorrect": false },
+        { "answer": "Database software", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the primary function of a modem in computer networking?",
+      "question": "What is the purpose of a firewall in computer security?",
       "options": [
+        { "answer": "To improve internet speed", "isCorrect": false },
         {
-          "answer": "To modulate and demodulate data for transmission",
+          "answer": "To block unauthorized access and control network traffic",
           "isCorrect": true
         },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
+        { "answer": "To provide faster processing speed", "isCorrect": false },
+        { "answer": "To protect against power surges", "isCorrect": false },
+        { "answer": "To connect to a wireless network", "isCorrect": false }
       ]
     },
     {
-      "question": "Which of the following is an example of a front-end library for web development?",
+      "question": "Which file format is commonly used for digital images with lossless compression?",
       "options": [
-        { "answer": "React.js", "isCorrect": true },
-        { "answer": "Vue.js", "isCorrect": false },
-        { "answer": "Angular", "isCorrect": false },
-        { "answer": "Ember.js", "isCorrect": false },
-        { "answer": "Backbone.js", "isCorrect": false }
+        { "answer": "JPEG", "isCorrect": false },
+        { "answer": "GIF", "isCorrect": false },
+        { "answer": "PNG", "isCorrect": true },
+        { "answer": "MP3", "isCorrect": false },
+        { "answer": "TIFF", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the primary function of a USB (Universal Serial Bus) in a computer?",
+      "question": "What is the role of a GPU (Graphics Processing Unit) in a computer?",
       "options": [
+        { "answer": "To control the internet connection", "isCorrect": false },
         {
-          "answer": "To connect external devices to a computer",
+          "answer": "To display images and videos on the monitor",
           "isCorrect": true
         },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
+        { "answer": "To manage the printer", "isCorrect": false },
+        { "answer": "To store user data", "isCorrect": false },
+        { "answer": "To speed up the boot-up process", "isCorrect": false }
       ]
     },
     {
-      "question": "Which programming language is often used for mobile app development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does FTP stand for in computer networking?",
-      "options": [
-        { "answer": "File Transfer Protocol", "isCorrect": true },
-        { "answer": "Fast Transmission Protocol", "isCorrect": false },
-        { "answer": "Full Text Search", "isCorrect": false },
-        { "answer": "File Tracking Process", "isCorrect": false },
-        { "answer": "File Testing Procedure", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a proxy server in internet technology?",
+      "question": "What is the purpose of a compiler in programming?",
       "options": [
         {
-          "answer": "To act as an intermediary between clients and servers",
+          "answer": "To translate source code into machine code",
           "isCorrect": true
         },
+        { "answer": "To compress files for storage", "isCorrect": false },
+        { "answer": "To debug computer programs", "isCorrect": false },
+        { "answer": "To clean the computer screen", "isCorrect": false },
+        { "answer": "To optimize internet speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the cloud in the context of computing?",
+      "options": [
         {
-          "answer": "To encrypt data for secure transmission",
+          "answer": "A physical location where old computers are stored",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To connect to external devices", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a cloud computing service provided by Amazon?",
-      "options": [
-        { "answer": "Amazon Web Services (AWS)", "isCorrect": true },
-        { "answer": "Google Cloud Platform (GCP)", "isCorrect": false },
-        { "answer": "Microsoft Azure", "isCorrect": false },
-        { "answer": "IBM Cloud", "isCorrect": false },
-        { "answer": "Oracle Cloud", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the main function of an SSL certificate on a website?",
-      "options": [
+        { "answer": "A network of satellites in space", "isCorrect": false },
         {
-          "answer": "To encrypt data for secure communication",
+          "answer": "An online storage and computing service accessed via the internet",
           "isCorrect": true
         },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To perform complex calculations", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a popular version control system used in software development?",
-      "options": [
-        { "answer": "Git", "isCorrect": true },
-        { "answer": "Subversion (SVN)", "isCorrect": false },
-        { "answer": "Mercurial", "isCorrect": false },
-        { "answer": "Perforce", "isCorrect": false },
-        { "answer": "CVS (Concurrent Versions System)", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does API stand for in software development?",
-      "options": [
-        { "answer": "Application Programming Interface", "isCorrect": true },
-        { "answer": "Automated Programming Interface", "isCorrect": false },
-        { "answer": "Advanced Protocol Integration", "isCorrect": false },
-        { "answer": "Agile Process Improvement", "isCorrect": false },
-        { "answer": "Adaptive Programming Interface", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for data visualization and statistical analysis?",
-      "options": [
-        { "answer": "R", "isCorrect": true },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of an email client software?",
-      "options": [
-        { "answer": "To manage and send emails", "isCorrect": true },
         {
-          "answer": "To protect against viruses and malware",
+          "answer": "A group of computers connected by cables",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To manage network connections", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does URL stand for in internet technology?",
-      "options": [
-        { "answer": "Uniform Resource Locator", "isCorrect": true },
-        { "answer": "Universal Retrieval Link", "isCorrect": false },
-        { "answer": "User Registration List", "isCorrect": false },
-        { "answer": "Uniform Routing Link", "isCorrect": false },
-        { "answer": "User Role Login", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a back-end programming language?",
-      "options": [
-        { "answer": "PHP", "isCorrect": true },
-        { "answer": "HTML", "isCorrect": false },
-        { "answer": "JavaScript", "isCorrect": false },
-        { "answer": "CSS", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the function of an accelerometer in mobile devices?",
-      "options": [
-        { "answer": "To detect orientation and motion", "isCorrect": true },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To store and manage data", "isCorrect": false },
-        { "answer": "To create visual masterpieces", "isCorrect": false },
-        { "answer": "To connect multiple networks", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for game development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "C++", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a modem in computer networking?",
-      "options": [
         {
-          "answer": "To modulate and demodulate data for transmission",
-          "isCorrect": true
-        },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
+          "answer": "A type of software for organizing files",
+          "isCorrect": false
+        }
       ]
     },
     {
-      "question": "Which of the following is an example of a front-end library for web development?",
+      "question": "What is a LAN (Local Area Network)?",
       "options": [
-        { "answer": "React.js", "isCorrect": true },
-        { "answer": "Vue.js", "isCorrect": false },
-        { "answer": "Angular", "isCorrect": false },
-        { "answer": "Ember.js", "isCorrect": false },
-        { "answer": "Backbone.js", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a USB (Universal Serial Bus) in a computer?",
-      "options": [
+        { "answer": "A type of computer virus", "isCorrect": false },
         {
-          "answer": "To connect external devices to a computer",
-          "isCorrect": true
-        },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for mobile app development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does FTP stand for in computer networking?",
-      "options": [
-        { "answer": "File Transfer Protocol", "isCorrect": true },
-        { "answer": "Fast Transmission Protocol", "isCorrect": false },
-        { "answer": "Full Text Search", "isCorrect": false },
-        { "answer": "File Tracking Process", "isCorrect": false },
-        { "answer": "File Testing Procedure", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a proxy server in internet technology?",
-      "options": [
-        {
-          "answer": "To act as an intermediary between clients and servers",
-          "isCorrect": true
-        },
-        {
-          "answer": "To encrypt data for secure transmission",
+          "answer": "A network that covers a large geographical area",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To connect to external devices", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a cloud computing service provided by Amazon?",
-      "options": [
-        { "answer": "Amazon Web Services (AWS)", "isCorrect": true },
-        { "answer": "Google Cloud Platform (GCP)", "isCorrect": false },
-        { "answer": "Microsoft Azure", "isCorrect": false },
-        { "answer": "IBM Cloud", "isCorrect": false },
-        { "answer": "Oracle Cloud", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the main function of an SSL certificate on a website?",
-      "options": [
         {
-          "answer": "To encrypt data for secure communication",
+          "answer": "A network that connects computers within a limited area, like a home or office",
           "isCorrect": true
         },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To perform complex calculations", "isCorrect": false }
+        { "answer": "A computer hardware component", "isCorrect": false },
+        { "answer": "A type of computer software", "isCorrect": false }
       ]
     },
     {
-      "question": "Which of the following is a popular version control system used in software development?",
+      "question": "What does HTML stand for in web development?",
       "options": [
-        { "answer": "Git", "isCorrect": true },
-        { "answer": "Subversion (SVN)", "isCorrect": false },
-        { "answer": "Mercurial", "isCorrect": false },
-        { "answer": "Perforce", "isCorrect": false },
-        { "answer": "CVS (Concurrent Versions System)", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does API stand for in software development?",
-      "options": [
-        { "answer": "Application Programming Interface", "isCorrect": true },
-        { "answer": "Automated Programming Interface", "isCorrect": false },
-        { "answer": "Advanced Protocol Integration", "isCorrect": false },
-        { "answer": "Agile Process Improvement", "isCorrect": false },
-        { "answer": "Adaptive Programming Interface", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for data visualization and statistical analysis?",
-      "options": [
-        { "answer": "R", "isCorrect": true },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of an email client software?",
-      "options": [
-        { "answer": "To manage and send emails", "isCorrect": true },
+        { "answer": "Hypertext Text Protocol", "isCorrect": false },
+        { "answer": "Hypertext Transfer Protocol", "isCorrect": false },
+        { "answer": "High-Tech Multimedia Link", "isCorrect": false },
+        { "answer": "Hypertext Markup Language", "isCorrect": true },
         {
-          "answer": "To protect against viruses and malware",
+          "answer": "Hyperlink and Text Manipulation Language",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of an antivirus program?",
+      "options": [
+        {
+          "answer": "To display advertisements on the computer screen",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To manage network connections", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does URL stand for in internet technology?",
-      "options": [
-        { "answer": "Uniform Resource Locator", "isCorrect": true },
-        { "answer": "Universal Retrieval Link", "isCorrect": false },
-        { "answer": "User Registration List", "isCorrect": false },
-        { "answer": "Uniform Routing Link", "isCorrect": false },
-        { "answer": "User Role Login", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a back-end programming language?",
-      "options": [
-        { "answer": "PHP", "isCorrect": true },
-        { "answer": "HTML", "isCorrect": false },
-        { "answer": "JavaScript", "isCorrect": false },
-        { "answer": "CSS", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the function of an accelerometer in mobile devices?",
-      "options": [
-        { "answer": "To detect orientation and motion", "isCorrect": true },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To store and manage data", "isCorrect": false },
-        { "answer": "To create visual masterpieces", "isCorrect": false },
-        { "answer": "To connect multiple networks", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for game development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "C++", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a modem in computer networking?",
-      "options": [
         {
-          "answer": "To modulate and demodulate data for transmission",
-          "isCorrect": true
-        },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is an example of a front-end library for web development?",
-      "options": [
-        { "answer": "React.js", "isCorrect": true },
-        { "answer": "Vue.js", "isCorrect": false },
-        { "answer": "Angular", "isCorrect": false },
-        { "answer": "Ember.js", "isCorrect": false },
-        { "answer": "Backbone.js", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a USB (Universal Serial Bus) in a computer?",
-      "options": [
-        {
-          "answer": "To connect external devices to a computer",
-          "isCorrect": true
-        },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for mobile app development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does FTP stand for in computer networking?",
-      "options": [
-        { "answer": "File Transfer Protocol", "isCorrect": true },
-        { "answer": "Fast Transmission Protocol", "isCorrect": false },
-        { "answer": "Full Text Search", "isCorrect": false },
-        { "answer": "File Tracking Process", "isCorrect": false },
-        { "answer": "File Testing Procedure", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of a proxy server in internet technology?",
-      "options": [
-        {
-          "answer": "To act as an intermediary between clients and servers",
-          "isCorrect": true
-        },
-        {
-          "answer": "To encrypt data for secure transmission",
+          "answer": "To protect against physical damage to the computer",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To connect to external devices", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a cloud computing service provided by Amazon?",
-      "options": [
-        { "answer": "Amazon Web Services (AWS)", "isCorrect": true },
-        { "answer": "Google Cloud Platform (GCP)", "isCorrect": false },
-        { "answer": "Microsoft Azure", "isCorrect": false },
-        { "answer": "IBM Cloud", "isCorrect": false },
-        { "answer": "Oracle Cloud", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the main function of an SSL certificate on a website?",
-      "options": [
         {
-          "answer": "To encrypt data for secure communication",
+          "answer": "To remove viruses and malware from the computer",
           "isCorrect": true
         },
-        { "answer": "To manage hardware resources", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To perform complex calculations", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which of the following is a popular version control system used in software development?",
-      "options": [
-        { "answer": "Git", "isCorrect": true },
-        { "answer": "Subversion (SVN)", "isCorrect": false },
-        { "answer": "Mercurial", "isCorrect": false },
-        { "answer": "Perforce", "isCorrect": false },
-        { "answer": "CVS (Concurrent Versions System)", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What does API stand for in software development?",
-      "options": [
-        { "answer": "Application Programming Interface", "isCorrect": true },
-        { "answer": "Automated Programming Interface", "isCorrect": false },
-        { "answer": "Advanced Protocol Integration", "isCorrect": false },
-        { "answer": "Agile Process Improvement", "isCorrect": false },
-        { "answer": "Adaptive Programming Interface", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for data visualization and statistical analysis?",
-      "options": [
-        { "answer": "R", "isCorrect": true },
-        { "answer": "Python", "isCorrect": false },
-        { "answer": "C#", "isCorrect": false },
-        { "answer": "Java", "isCorrect": false },
-        { "answer": "Ruby", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the purpose of an email client software?",
-      "options": [
-        { "answer": "To manage and send emails", "isCorrect": true },
         {
-          "answer": "To protect against viruses and malware",
+          "answer": "To increase the computer's processing speed",
           "isCorrect": false
         },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false },
-        { "answer": "To manage network connections", "isCorrect": false }
+        { "answer": "To improve internet connectivity", "isCorrect": false }
       ]
     },
     {
-      "question": "What does URL stand for in internet technology?",
+      "question": "Which of the following is an example of an open-source software?",
       "options": [
-        { "answer": "Uniform Resource Locator", "isCorrect": true },
-        { "answer": "Universal Retrieval Link", "isCorrect": false },
-        { "answer": "User Registration List", "isCorrect": false },
-        { "answer": "Uniform Routing Link", "isCorrect": false },
-        { "answer": "User Role Login", "isCorrect": false }
+        { "answer": "Microsoft Office", "isCorrect": false },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Google Chrome", "isCorrect": true },
+        { "answer": "Mozilla Firefox", "isCorrect": false },
+        { "answer": "Apple iWork", "isCorrect": false }
       ]
     },
     {
-      "question": "Which of the following is an example of a back-end programming language?",
-      "options": [
-        { "answer": "PHP", "isCorrect": true },
-        { "answer": "HTML", "isCorrect": false },
-        { "answer": "JavaScript", "isCorrect": false },
-        { "answer": "CSS", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the function of an accelerometer in mobile devices?",
-      "options": [
-        { "answer": "To detect orientation and motion", "isCorrect": true },
-        { "answer": "To perform complex calculations", "isCorrect": false },
-        { "answer": "To store and manage data", "isCorrect": false },
-        { "answer": "To create visual masterpieces", "isCorrect": false },
-        { "answer": "To connect multiple networks", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "Which programming language is often used for game development on Android devices?",
-      "options": [
-        { "answer": "Java", "isCorrect": true },
-        { "answer": "Swift", "isCorrect": false },
-        { "answer": "Kotlin", "isCorrect": false },
-        { "answer": "C++", "isCorrect": false },
-        { "answer": "Python", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "What is the primary function of a modem in computer networking?",
+      "question": "What is the purpose of a DNS (Domain Name System) in networking?",
       "options": [
         {
-          "answer": "To modulate and demodulate data for transmission",
+          "answer": "To convert IP addresses to domain names",
+          "isCorrect": false
+        },
+        {
+          "answer": "To convert domain names to IP addresses",
           "isCorrect": true
         },
-        { "answer": "To execute automated tests", "isCorrect": false },
-        { "answer": "To manage database connections", "isCorrect": false },
-        { "answer": "To provide power supply to devices", "isCorrect": false },
-        { "answer": "To create graphical user interfaces", "isCorrect": false }
+        { "answer": "To store data in the cloud", "isCorrect": false },
+        { "answer": "To protect against cyber attacks", "isCorrect": false },
+        { "answer": "To manage internet speed", "isCorrect": false }
       ]
     },
     {
-      "question": "Which of the following is an example of a front-end library for web development?",
+      "question": "Which type of software is used for creating 3D models and animations?",
       "options": [
-        { "answer": "React.js", "isCorrect": true },
-        { "answer": "Vue.js", "isCorrect": false },
-        { "answer": "Angular", "isCorrect": false },
-        { "answer": "Ember.js", "isCorrect": false },
-        { "answer": "Backbone.js", "isCorrect": false }
+        { "answer": "Video editing software", "isCorrect": false },
+        { "answer": "Animation software", "isCorrect": false },
+        { "answer": "3D modeling software", "isCorrect": true },
+        { "answer": "Audio editing software", "isCorrect": false },
+        { "answer": "Graphics design software", "isCorrect": false }
       ]
     },
     {
-      "question": "What is the primary function of a USB (Universal Serial Bus) in a computer?",
+      "question": "What is the purpose of a VPN (Virtual Private Network) in computing?",
+      "options": [
+        { "answer": "To create 3D models and animations", "isCorrect": false },
+        {
+          "answer": "To simulate the behavior of hardware and run multiple operating systems on the same physical machine",
+          "isCorrect": false
+        },
+        {
+          "answer": "To provide a secure internet connection and protect privacy",
+          "isCorrect": true
+        },
+        {
+          "answer": "To automatically fix computer errors",
+          "isCorrect": false
+        },
+        { "answer": "To improve internet speed", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the term 'algorithm' mean in computer science?",
       "options": [
         {
-          "answer": "To connect external devices to a computer",
+          "answer": "A series of instructions that a computer can understand and execute",
           "isCorrect": true
         },
-        { "answer": "To execute automated tests", "isCorrect": false }
+        {
+          "answer": "A computer virus that spreads quickly",
+          "isCorrect": false
+        },
+        {
+          "answer": "A type of computer hardware component",
+          "isCorrect": false
+        },
+        {
+          "answer": "A new computer language for advanced users",
+          "isCorrect": false
+        },
+        {
+          "answer": "A set of rules for computer programming",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is an example of a cloud-based productivity suite?",
+      "options": [
+        { "answer": "Microsoft Office 365", "isCorrect": true },
+        { "answer": "Adobe Photoshop", "isCorrect": false },
+        { "answer": "Apple iWork", "isCorrect": false },
+        { "answer": "GIMP", "isCorrect": false },
+        { "answer": "OpenOffice", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the purpose of a graphics tablet in digital art and design?",
+      "options": [
+        {
+          "answer": "To display high-quality graphics on the screen",
+          "isCorrect": false
+        },
+        {
+          "answer": "To improve the performance of the CPU",
+          "isCorrect": false
+        },
+        {
+          "answer": "To provide an input device for artists to draw and create directly on the tablet surface",
+          "isCorrect": true
+        },
+        { "answer": "To store digital files securely", "isCorrect": false },
+        { "answer": "To create 3D models for animations", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What does the term 'metadata' refer to in the context of digital files?",
+      "options": [
+        {
+          "answer": "Data that provides information about other data",
+          "isCorrect": true
+        },
+        { "answer": "A type of computer virus", "isCorrect": false },
+        {
+          "answer": "A set of mathematical operations for data encryption",
+          "isCorrect": false
+        },
+        { "answer": "A type of video file format", "isCorrect": false },
+        {
+          "answer": "Data that is not relevant to the file",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Which of the following is a data storage unit that is larger than a terabyte?",
+      "options": [
+        { "answer": "Megabyte (MB)", "isCorrect": false },
+        { "answer": "Gigabyte (GB)", "isCorrect": false },
+        { "answer": "Petabyte (PB)", "isCorrect": true },
+        { "answer": "Exabyte (EB)", "isCorrect": false },
+        { "answer": "Terabyte (TB)", "isCorrect": false }
       ]
     }
   ]

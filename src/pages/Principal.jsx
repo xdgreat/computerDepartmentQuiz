@@ -11,7 +11,7 @@ const Principal = () => {
       <NavBar />
       <NavSpace />
       <h1 className="content-title">
-        <span className="title">A Special Tribute: </span>
+        <span className="title">A Special Gratitude: </span>
         Thank You, Mr Sanjay Raman.
       </h1>
       <div className="principal-container">

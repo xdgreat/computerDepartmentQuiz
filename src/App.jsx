@@ -9,8 +9,10 @@ import Aboutevent from "./components/aboutevent";
 import Quizlink from "./components/quizlink";
 import ProjectGallery from "./components/ProjectGallery";
 import Footer from "./components/Footer";
+import questions from "./data/questions.json";
 
 function App() {
+  console.log(questions.questions.length);
   return (
     <>
       <NavBar activeClass={"white"} />

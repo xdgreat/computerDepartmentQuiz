@@ -4,41 +4,55 @@ import Year12 from "../data/Year12.json";
 import Year13 from "../data/Year13.json";
 import "../styles/QuizGame.css";
 import { Link } from "react-router-dom";
+import quiz from "../data/questions.json";
 
 export default function QuizGame({ quizlevel, userDbId, Name }) {
   const [quizCounter, setQuizCounter] = useState(0);
+  const [questionsShowed, setQuestionsShowed] = useState([-1]);
   const [showStats, setShowStats] = useState(false);
   const [score, setScore] = useState(0);
+  const [randomIndex, getRandomIndex] = useState(0);
+  const [totalQuestionsAnswered, setTotalQuestionsAnswered] = useState(0);
   const hostUrl = window.location.hostname;
   const level = quizlevel;
 
-  let quizLevelArr;
+  let quizLevelArr = quiz;
 
-  if (level === "Year 13") {
-    quizLevelArr = Year13;
-  } else if (level === "Year 12") {
-    quizLevelArr = Year12;
-  } else if (level === "Year 11") {
-    quizLevelArr = Year11;
-  } else {
-    return <div>Refresh Page</div>;
+  // if (level === "Year 13") {
+  //   quizLevelArr = Year13;
+  // } else if (level === "Year 12") {
+  //   quizLevelArr = Year12;
+  // } else if (level === "Year 11") {
+  //   quizLevelArr = Year11;
+  // } else {
+  //   return <div>Refresh Page</div>;
+  // }
+  function getRandomQuestion() {
+    let randomIndex = Math.floor(Math.random() * quizLevelArr.questions.length);
+    if (questionsShowed.includes(randomIndex)) {
+      return getRandomQuestion();
+    } else {
+      setQuestionsShowed([...questionsShowed, randomIndex]);
+      return getRandomIndex(randomIndex);
+    }
   }
-
+  console.log(totalQuestionsAnswered);
   const handleAnswerButtonClick = (isCorrect) => {
     let updatedScore = score;
-
     if (isCorrect === true) {
       updatedScore++;
     }
 
-    const nextQuestion = quizCounter + 1;
-    if (nextQuestion < quizLevelArr.questions.length) {
+    if (totalQuestionsAnswered <= 18) {
+      getRandomQuestion();
+      const nextQuestion = quizLevelArr.questions[randomIndex];
       setQuizCounter(nextQuestion);
     } else {
       setShowStats(true);
       updateScore(updatedScore);
     }
 
+    setTotalQuestionsAnswered(totalQuestionsAnswered + 1);
     setScore(updatedScore);
   };
   const updateScore = (scoreCount) => {
@@ -82,7 +96,9 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
         ) : (
           <>
             <div className="quiz-question">
-              <h1 className="quiz-counter">Question {quizCounter + 1}/20</h1>
+              <h1 className="quiz-counter">
+                Question {totalQuestionsAnswered + 1}/20
+              </h1>
               <h2 className="quiz-question-title">
                 <p className="user-info">
                   <span className="info-span">Name: </span>
@@ -91,11 +107,11 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
                   <span className="info-span">Form: </span>
                   {level}
                 </p>
-                {quizLevelArr.questions[quizCounter].question}
+                {quizLevelArr.questions[randomIndex].question}
               </h2>
             </div>
             <div className="quiz-option-container">
-              {quizLevelArr.questions[quizCounter].options.map((el, id) => {
+              {quizLevelArr.questions[randomIndex].options.map((el, id) => {
                 return (
                   <button
                     key={id}

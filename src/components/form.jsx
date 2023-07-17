@@ -124,6 +124,12 @@ function Form({ submit, formName, userDbId, Name }) {
             >
               Select a Form
             </option>
+            <option value="Year 9" className="select-options">
+              Year 9
+            </option>
+            <option value="Year 10" className="select-options">
+              Year 10
+            </option>
             <option value="Year 11" className="select-options">
               Year 11
             </option>
@@ -134,7 +140,10 @@ function Form({ submit, formName, userDbId, Name }) {
               Year 13
             </option>
           </select>
-
+          <p className="warning">
+            Ensure that you use your correct credentials as a reference to check
+            if you qualify for rewards.
+          </p>
           <button type="submit" className="quiz-submit">
             Let's Go
           </button>
