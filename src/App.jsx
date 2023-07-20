@@ -9,7 +9,7 @@ import Aboutevent from "./components/aboutevent";
 import Quizlink from "./components/quizlink";
 import ProjectGallery from "./components/ProjectGallery";
 import Footer from "./components/Footer";
-import questions from "./data/questions.json";
+import questions from "./data/generalquestions.json";
 
 function App() {
   console.log(questions.questions.length);
@@ -17,7 +17,6 @@ function App() {
     <>
       <NavBar activeClass={"white"} />
       <Hero />
-
       <StaffGallery />
       <Aboutevent />
       <BackToTop />

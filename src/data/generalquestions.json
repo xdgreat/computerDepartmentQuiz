@@ -1,0 +1,490 @@
+{
+  "questions": [
+    {
+      "question": "Who is the author of the novel 'To Kill a Mockingbird'?",
+      "options": [
+        { "answer": "F. Scott Fitzgerald", "isCorrect": false },
+        { "answer": "Mark Twain", "isCorrect": false },
+        { "answer": "Harper Lee", "isCorrect": true },
+        { "answer": "J.D. Salinger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        { "answer": "Saturn", "isCorrect": false },
+        { "answer": "Mars", "isCorrect": false },
+        { "answer": "Earth", "isCorrect": false },
+        { "answer": "Jupiter", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which country is home to the kangaroo?",
+      "options": [
+        { "answer": "Brazil", "isCorrect": false },
+        { "answer": "Canada", "isCorrect": false },
+        { "answer": "Australia", "isCorrect": true },
+        { "answer": "India", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the current Prime Minister of the United Kingdom?",
+      "options": [
+        { "answer": "Theresa May", "isCorrect": false },
+        { "answer": "Rishi Sunak", "isCorrect": true },
+        { "answer": "David Cameron", "isCorrect": false },
+        { "answer": "Tony Blair", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which artist painted the famous artwork 'The Starry Night'?",
+      "options": [
+        { "answer": "Vincent van Gogh", "isCorrect": true },
+        { "answer": "Pablo Picasso", "isCorrect": false },
+        { "answer": "Leonardo da Vinci", "isCorrect": false },
+        { "answer": "Salvador Dalí", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the capital city of Canada?",
+      "options": [
+        { "answer": "Toronto", "isCorrect": false },
+        { "answer": "Vancouver", "isCorrect": false },
+        { "answer": "Ottawa", "isCorrect": true },
+        { "answer": "Montreal", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the Greek goddess of wisdom?",
+      "options": [
+        { "answer": "Aphrodite", "isCorrect": false },
+        { "answer": "Athena", "isCorrect": true },
+        { "answer": "Hera", "isCorrect": false },
+        { "answer": "Artemis", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+      "options": [
+        { "answer": "Mercury", "isCorrect": false },
+        { "answer": "Mars", "isCorrect": false },
+        { "answer": "Jupiter", "isCorrect": false },
+        { "answer": "Venus", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Who wrote the play 'Hamlet'?",
+      "options": [
+        { "answer": "William Shakespeare", "isCorrect": true },
+        { "answer": "George Bernard Shaw", "isCorrect": false },
+        { "answer": "Tennessee Williams", "isCorrect": false },
+        { "answer": "Oscar Wilde", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
+      "options": [
+        { "answer": "China", "isCorrect": false },
+        { "answer": "Japan", "isCorrect": true },
+        { "answer": "South Korea", "isCorrect": false },
+        { "answer": "Thailand", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        { "answer": "Fe", "isCorrect": false },
+        { "answer": "Ag", "isCorrect": false },
+        { "answer": "Au", "isCorrect": true },
+        { "answer": "Cu", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the current Chancellor of Germany?",
+      "options": [
+        { "answer": "Olaf Scholz", "isCorrect": false },
+        { "answer": "Angela Merkel", "isCorrect": true },
+        { "answer": "Martin Schulz", "isCorrect": false },
+        { "answer": "Frank-Walter Steinmeier", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        { "answer": "Atlantic Ocean", "isCorrect": false },
+        { "answer": "Indian Ocean", "isCorrect": false },
+        { "answer": "Pacific Ocean", "isCorrect": true },
+        { "answer": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the 'Lord of the Rings' book series?",
+      "options": [
+        { "answer": "George R.R. Martin", "isCorrect": false },
+        { "answer": "J.R.R. Tolkien", "isCorrect": true },
+        { "answer": "C.S. Lewis", "isCorrect": false },
+        { "answer": "Stephen King", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country is famous for the ancient ruins of Machu Picchu?",
+      "options": [
+        { "answer": "Mexico", "isCorrect": false },
+        { "answer": "Brazil", "isCorrect": false },
+        { "answer": "Chile", "isCorrect": false },
+        { "answer": "Peru", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Who is the current President of France?",
+      "options": [
+        { "answer": "François Hollande", "isCorrect": false },
+        { "answer": "Nicolas Sarkozy", "isCorrect": false },
+        { "answer": "Emmanuel Macron", "isCorrect": true },
+        { "answer": "Jacques Chirac", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for the element oxygen?",
+      "options": [
+        { "answer": "Ox", "isCorrect": false },
+        { "answer": "O", "isCorrect": true },
+        { "answer": "Oy", "isCorrect": false },
+        { "answer": "On", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who painted the famous mural on the ceiling of the Sistine Chapel?",
+      "options": [
+        { "answer": "Leonardo da Vinci", "isCorrect": false },
+        { "answer": "Raphael", "isCorrect": false },
+        { "answer": "Michelangelo", "isCorrect": true },
+        { "answer": "Donatello", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country hosted the 2018 FIFA World Cup?",
+      "options": [
+        { "answer": "Brazil", "isCorrect": false },
+        { "answer": "Russia", "isCorrect": true },
+        { "answer": "Germany", "isCorrect": false },
+        { "answer": "France", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the Greek god of thunder?",
+      "options": [
+        { "answer": "Zeus", "isCorrect": true },
+        { "answer": "Poseidon", "isCorrect": false },
+        { "answer": "Hades", "isCorrect": false },
+        { "answer": "Apollo", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the Harry Potter book series?",
+      "options": [
+        { "answer": "J.K. Rowling", "isCorrect": true },
+        { "answer": "J.R.R. Tolkien", "isCorrect": false },
+        { "answer": "George R.R. Martin", "isCorrect": false },
+        { "answer": "C.S. Lewis", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country is famous for its tulips?",
+      "options": [
+        { "answer": "Italy", "isCorrect": false },
+        { "answer": "France", "isCorrect": false },
+        { "answer": "Netherlands", "isCorrect": true },
+        { "answer": "Germany", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "options": [
+        { "answer": "Donald Trump", "isCorrect": false },
+        { "answer": "Joe Biden", "isCorrect": true },
+        { "answer": "Barack Obama", "isCorrect": false },
+        { "answer": "George W. Bush", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which famous scientist developed the theory of relativity?",
+      "options": [
+        { "answer": "Albert Einstein", "isCorrect": true },
+        { "answer": "Isaac Newton", "isCorrect": false },
+        { "answer": "Galileo Galilei", "isCorrect": false },
+        { "answer": "Charles Darwin", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the capital city of Brazil?",
+      "options": [
+        { "answer": "Brasília", "isCorrect": true },
+        { "answer": "Rio de Janeiro", "isCorrect": false },
+        { "answer": "São Paulo", "isCorrect": false },
+        { "answer": "Salvador", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the novel '1984'?",
+      "options": [
+        { "answer": "Aldous Huxley", "isCorrect": false },
+        { "answer": "Ray Bradbury", "isCorrect": false },
+        { "answer": "Ernest Hemingway", "isCorrect": false },
+        { "answer": "George Orwell", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which country is famous for its pyramids?",
+      "options": [
+        { "answer": "Greece", "isCorrect": false },
+        { "answer": "Mexico", "isCorrect": false },
+        { "answer": "Egypt", "isCorrect": true },
+        { "answer": "India", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who painted the famous artwork 'The Last Supper'?",
+      "options": [
+        { "answer": "Pablo Picasso", "isCorrect": false },
+        { "answer": "Vincent van Gogh", "isCorrect": false },
+        { "answer": "Leonardo da Vinci", "isCorrect": true },
+        { "answer": "Michelangelo", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country hosted the 2014 FIFA World Cup?",
+      "options": [
+        { "answer": "Brazil", "isCorrect": true },
+        { "answer": "Germany", "isCorrect": false },
+        { "answer": "Russia", "isCorrect": false },
+        { "answer": "France", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the Greek god of the underworld?",
+      "options": [
+        { "answer": "Poseidon", "isCorrect": false },
+        { "answer": "Zeus", "isCorrect": false },
+        { "answer": "Apollo", "isCorrect": false },
+        { "answer": "Hades", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        { "answer": "Pacific Ocean", "isCorrect": true },
+        { "answer": "Atlantic Ocean", "isCorrect": false },
+        { "answer": "Indian Ocean", "isCorrect": false },
+        { "answer": "Arctic Ocean", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which famous playwright wrote Romeo and Juliet?",
+      "options": [
+        { "answer": "William Shakespeare", "isCorrect": true },
+        { "answer": "Arthur Miller", "isCorrect": false },
+        { "answer": "Tennessee Williams", "isCorrect": false },
+        { "answer": "Oscar Wilde", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for the element iron?",
+      "options": [
+        { "answer": "Ir", "isCorrect": false },
+        { "answer": "Fe", "isCorrect": true },
+        { "answer": "In", "isCorrect": false },
+        { "answer": "Io", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": [
+        { "answer": "Vincent van Gogh", "isCorrect": false },
+        { "answer": "Pablo Picasso", "isCorrect": false },
+        { "answer": "Leonardo da Vinci", "isCorrect": true },
+        { "answer": "Michelangelo", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "options": [
+        { "answer": "Brazil", "isCorrect": true },
+        { "answer": "United States", "isCorrect": false },
+        { "answer": "China", "isCorrect": false },
+        { "answer": "Russia", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the novel 'Pride and Prejudice'?",
+      "options": [
+        { "answer": "Jane Austen", "isCorrect": true },
+        { "answer": "Emily Brontë", "isCorrect": false },
+        { "answer": "Virginia Woolf", "isCorrect": false },
+        { "answer": "Charlotte Brontë", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the capital city of Russia?",
+      "options": [
+        { "answer": "Kiev", "isCorrect": false },
+        { "answer": "Moscow", "isCorrect": true },
+        { "answer": "St. Petersburg", "isCorrect": false },
+        { "answer": "Warsaw", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which musical instrument has black and white keys?",
+      "options": [
+        { "answer": "Guitar", "isCorrect": false },
+        { "answer": "Violin", "isCorrect": false },
+        { "answer": "Piano", "isCorrect": true },
+        { "answer": "Flute", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the novel 'Moby-Dick'?",
+      "options": [
+        { "answer": "F. Scott Fitzgerald", "isCorrect": false },
+        { "answer": "Herman Melville", "isCorrect": true },
+        { "answer": "Mark Twain", "isCorrect": false },
+        { "answer": "J.D. Salinger", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the largest continent?",
+      "options": [
+        { "answer": "Africa", "isCorrect": false },
+        { "answer": "North America", "isCorrect": false },
+        { "answer": "South America", "isCorrect": false },
+        { "answer": "Asia", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Who is the Greek god of love and beauty?",
+      "options": [
+        { "answer": "Aphrodite", "isCorrect": true },
+        { "answer": "Hera", "isCorrect": false },
+        { "answer": "Athena", "isCorrect": false },
+        { "answer": "Artemis", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country is known for inventing the game of cricket?",
+      "options": [
+        { "answer": "Australia", "isCorrect": false },
+        { "answer": "England", "isCorrect": true },
+        { "answer": "India", "isCorrect": false },
+        { "answer": "South Africa", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the current Prime Minister of India?",
+      "options": [
+        { "answer": "Manmohan Singh", "isCorrect": false },
+        { "answer": "Rahul Gandhi", "isCorrect": false },
+        { "answer": "Narendra Modi", "isCorrect": true },
+        { "answer": "Indira Gandhi", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which famous scientist developed the theory of gravity?",
+      "options": [
+        { "answer": "Albert Einstein", "isCorrect": false },
+        { "answer": "Galileo Galilei", "isCorrect": false },
+        { "answer": "Charles Darwin", "isCorrect": false },
+        { "answer": "Isaac Newton", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the capital city of Italy?",
+      "options": [
+        { "answer": "Milan", "isCorrect": false },
+        { "answer": "Venice", "isCorrect": false },
+        { "answer": "Florence", "isCorrect": false },
+        { "answer": "Rome", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Who is the author of the novel 'The Great Gatsby'?",
+      "options": [
+        { "answer": "Mark Twain", "isCorrect": false },
+        { "answer": "Harper Lee", "isCorrect": false },
+        { "answer": "J.D. Salinger", "isCorrect": false },
+        { "answer": "F. Scott Fitzgerald", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "What is the capital city of China?",
+      "options": [
+        { "answer": "Shanghai", "isCorrect": false },
+        { "answer": "Hong Kong", "isCorrect": false },
+        { "answer": "Guangzhou", "isCorrect": false },
+        { "answer": "Beijing", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Which country is famous for the ancient ruins of Petra?",
+      "options": [
+        { "answer": "Greece", "isCorrect": false },
+        { "answer": "Jordan", "isCorrect": true },
+        { "answer": "Egypt", "isCorrect": false },
+        { "answer": "Turkey", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the current President of Russia?",
+      "options": [
+        { "answer": "Dmitry Medvedev", "isCorrect": false },
+        { "answer": "Boris Yeltsin", "isCorrect": false },
+        { "answer": "Vladimir Putin", "isCorrect": true },
+        { "answer": "Mikhail Gorbachev", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the chemical symbol for the element sodium?",
+      "options": [
+        { "answer": "So", "isCorrect": false },
+        { "answer": "K", "isCorrect": false },
+        { "answer": "Mg", "isCorrect": false },
+        { "answer": "Na", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "Who painted the famous artwork 'The Persistence of Memory'?",
+      "options": [
+        { "answer": "Pablo Picasso", "isCorrect": false },
+        { "answer": "Salvador Dalí", "isCorrect": true },
+        { "answer": "Vincent van Gogh", "isCorrect": false },
+        { "answer": "Leonardo da Vinci", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Which country is known as the 'Land of Fire and Ice'?",
+      "options": [
+        { "answer": "Greenland", "isCorrect": false },
+        { "answer": "Norway", "isCorrect": false },
+        { "answer": "Iceland", "isCorrect": true },
+        { "answer": "Finland", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "Who is the author of the novel 'The Catcher in the Rye'?",
+      "options": [
+        { "answer": "F. Scott Fitzgerald", "isCorrect": false },
+        { "answer": "Harper Lee", "isCorrect": false },
+        { "answer": "J.D. Salinger", "isCorrect": true },
+        { "answer": "Mark Twain", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What is the capital city of Australia?",
+      "options": [
+        { "answer": "Canberra", "isCorrect": true },
+        { "answer": "Sydney", "isCorrect": false },
+        { "answer": "Melbourne", "isCorrect": false },
+        { "answer": "Brisbane", "isCorrect": false }
+      ]
+    }
+  ]
+}

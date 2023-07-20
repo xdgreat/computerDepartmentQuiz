@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import Year11 from "../data/Year11.json";
-import Year12 from "../data/Year12.json";
-import Year13 from "../data/Year13.json";
 import "../styles/QuizGame.css";
 import { Link } from "react-router-dom";
-import quiz from "../data/questions.json";
+import quiz from "../data/generalquestions.json";
 
 export default function QuizGame({ quizlevel, userDbId, Name }) {
   const [quizCounter, setQuizCounter] = useState(0);
@@ -73,15 +70,30 @@ export default function QuizGame({ quizlevel, userDbId, Name }) {
         console.error("Error updating score:", error);
       });
   };
+
+  let textOutput;
+  switch (score) {
+    case 20:
+      textOutput = "Go to the teacher, you won a prize!";
+      break;
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+    case 19:
+      textOutput = "Keep it up, you're so close!";
+      break;
+    default:
+      textOutput = "Better luck next time!";
+  }
   return (
     <>
       <div className="quiz-container">
         {showStats ? (
           <div className="score-container">
             <h1 className="quiz-stats">
-              Quiz Completed - Well done! Your score is{" "}
-              <span className="final-score">{score}/20</span>. Don't forget to
-              inform your teacher and claim your prize!
+              Quiz Completed Your score is{" "}
+              <span className="final-score">{score}/20</span>. {textOutput}
             </h1>
             <Link
               onClick={() => window.location.reload()}
